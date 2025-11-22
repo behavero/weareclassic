@@ -63,6 +63,10 @@
     @apply inline-flex items-center justify-center px-7 py-2.5 text-base font-medium text-white bg-blue hover:bg-blue-dark transition-all duration-200 ease-out rounded-full shadow-sm hover:shadow-md;
   }
 
+  .btn-accent {
+    @apply inline-flex items-center justify-center px-7 py-2.5 text-base font-semibold text-black bg-orange hover:bg-orange-dark transition-all duration-200 ease-out rounded-full shadow-sm hover:shadow-md;
+  }
+
   .heading-display {
     @apply font-headline text-5xl sm:text-6xl lg:text-7xl text-white leading-tight tracking-tight font-semibold;
   }
