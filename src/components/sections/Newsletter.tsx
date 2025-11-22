@@ -44,15 +44,15 @@ export const Newsletter: React.FC = () => {
   };
 
   return (
-    <section className="section-spacing-sm bg-blue text-white">
+    <section className="section-spacing-sm bg-beige">
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Left-Aligned Text */}
           <div className="content-left">
-            <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 leading-tight">
+            <h2 className="font-headline text-4xl lg:text-5xl xl:text-6xl text-black font-semibold mb-6 leading-tight">
               {t('newsletter.title')}
             </h2>
-            <p className="font-sans text-lg lg:text-xl text-white/90 leading-relaxed">
+            <p className="font-sans text-lg lg:text-xl text-black/70 leading-relaxed">
               {t('newsletter.subtitle')}
             </p>
           </div>
@@ -66,11 +66,11 @@ export const Newsletter: React.FC = () => {
                 value={email}
                 onChange={setEmail}
                 disabled={status === 'loading' || status === 'success'}
-                className="bg-white/10 border-white/20 text-white placeholder:text-white/50 focus:border-white focus:bg-white/20"
+                className="bg-white border-black/20 text-black placeholder:text-black/50 focus:border-blue"
               />
               <Button
                 type="submit"
-                variant="primary"
+                variant="secondary"
                 size="lg"
                 disabled={status === 'loading' || status === 'success'}
                 className="w-full"
@@ -84,8 +84,8 @@ export const Newsletter: React.FC = () => {
               <div
                 className={`mt-4 p-4 rounded-md ${
                   status === 'success'
-                    ? 'bg-orange/20 text-orange-light border border-orange/30'
-                    : 'bg-red-900/20 text-red-200 border border-red-500/30'
+                    ? 'bg-orange/20 text-orange-dark border border-orange/30'
+                    : 'bg-red-100 text-red-700 border border-red-300'
                 }`}
               >
                 {message}
