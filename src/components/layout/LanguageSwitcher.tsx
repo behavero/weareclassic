@@ -16,31 +16,41 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ isScrolled =
   };
 
   return (
-    <button
-      onClick={toggleLanguage}
-      className={`flex items-center gap-2 px-4 py-2 rounded-md border-2 transition-all duration-200 font-sans font-medium text-sm ${
-        isScrolled
-          ? 'border-blue text-blue hover:bg-blue hover:text-white'
-          : 'border-white text-white hover:bg-white hover:text-black'
-      }`}
-      aria-label="Switch language"
-    >
-      <span className="uppercase font-semibold tracking-wider">
-        {currentLanguage}
-      </span>
-      <svg
-        className="w-4 h-4"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
+    <div className={`flex items-center gap-1 rounded-full p-1 transition-all duration-200 ${
+      isScrolled
+        ? 'bg-beige/30'
+        : 'bg-white/10 backdrop-blur-sm'
+    }`}>
+      <button
+        onClick={() => i18n.changeLanguage('en')}
+        className={`px-4 py-1.5 rounded-full font-sans font-medium text-sm transition-all duration-200 ${
+          currentLanguage === 'en'
+            ? isScrolled
+              ? 'bg-blue text-white shadow-sm'
+              : 'bg-white text-blue shadow-sm'
+            : isScrolled
+              ? 'text-black/60 hover:text-black'
+              : 'text-white/60 hover:text-white'
+        }`}
+        aria-label="Switch to English"
       >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
-        />
-      </svg>
-    </button>
+        EN
+      </button>
+      <button
+        onClick={() => i18n.changeLanguage('ro')}
+        className={`px-4 py-1.5 rounded-full font-sans font-medium text-sm transition-all duration-200 ${
+          currentLanguage === 'ro'
+            ? isScrolled
+              ? 'bg-blue text-white shadow-sm'
+              : 'bg-white text-blue shadow-sm'
+            : isScrolled
+              ? 'text-black/60 hover:text-black'
+              : 'text-white/60 hover:text-white'
+        }`}
+        aria-label="Switch to Romanian"
+      >
+        RO
+      </button>
+    </div>
   );
 };
