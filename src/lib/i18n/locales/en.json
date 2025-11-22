@@ -1,0 +1,187 @@
+{
+  "header": {
+    "logo": "We Are Classic",
+    "nav": {
+      "mission": "Mission",
+      "concerts": "Concerts",
+      "community": "Community",
+      "partners": "Partners"
+    },
+    "cta": "Contact Us",
+    "language": "Language"
+  },
+  "hero": {
+    "headline": "Elevating Classical Music for Every Generation",
+    "subheadline": "Bridging tradition and innovation to make classical music accessible, inspiring, and transformative for communities across Romania.",
+    "cta": "Contact Us",
+    "secondaryCta": "View Concerts",
+    "scroll": "Discover More"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "subtitle": "A World United by Classical Music",
+    "statement": "We believe classical music is a universal language that transcends borders, cultures, and generations. Our mission is to democratize access to this timeless art form, nurturing appreciation from childhood through professional careers, and creating a vibrant ecosystem where music flourishes.",
+    "values": {
+      "excellence": {
+        "title": "Excellence",
+        "description": "We pursue the highest standards in musical education and performance, supporting world-class artists and performances that elevate the art form."
+      },
+      "education": {
+        "title": "Education",
+        "description": "We inspire young minds through accessible classical music education programs, providing free instruments, expert coaching, and performance opportunities."
+      },
+      "community": {
+        "title": "Community",
+        "description": "We build connections through shared musical experiences, bringing classical music to underserved communities across Romania."
+      }
+    }
+  },
+  "concerts": {
+    "future": {
+      "title": "We Are Classics - Chamber Music Series",
+      "subtitle": "High-quality chamber concerts featuring top national and international artists at Amfiteatrul Cornel Țăranu, Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+      "featured": "Opening Concert",
+      "bookNow": "Book Tickets",
+      "viewAll": "View Full Concert Schedule",
+      "concert1": {
+        "title": "Opening Concert - Răzvan Suma & Oana Crișu",
+        "date": "December 6, 2024",
+        "time": "19:00",
+        "venue": "Amfiteatrul Cornel Țăranu",
+        "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+        "artists": "Răzvan Suma (cello) & Oana Crișu (piano)",
+        "description": "Chamber recital from two of the most known and admired musicians from Romania.",
+        "price": "Contact for tickets"
+      },
+      "concert2": {
+        "title": "Horia Mihail Piano Recital",
+        "date": "December 13, 2024",
+        "time": "19:00",
+        "venue": "Amfiteatrul Cornel Țăranu",
+        "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+        "artists": "Horia Mihail (piano)",
+        "description": "One of Romania's most respected pianists.",
+        "price": "Contact for tickets"
+      },
+      "concert3": {
+        "title": "Chamber Quartet Concert",
+        "date": "December 20, 2024",
+        "time": "19:00",
+        "venue": "Amfiteatrul Cornel Țăranu",
+        "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+        "artists": "Răzvan Dumitru (violin), Horia Haplea (piano), Mihaela Maxim (voice), Vlad Câmpean (cello)",
+        "description": "An exceptional chamber quartet performance.",
+        "price": "Contact for tickets"
+      }
+    },
+    "previous": {
+      "title": "Previous Concerts",
+      "subtitle": "Celebrating our musical journey through memorable performances",
+      "viewGallery": "View Full Gallery",
+      "attendees": "attendees",
+      "concert1": {
+        "title": "Winter Classical Gala 2024",
+        "date": "December 20, 2024",
+        "venue": "Romanian Athenaeum",
+        "location": "Bucharest"
+      },
+      "concert2": {
+        "title": "New Year's Concert 2025",
+        "date": "January 1, 2025",
+        "venue": "Palace of Culture",
+        "location": "Iași"
+      },
+      "concert3": {
+        "title": "Valentine's Special",
+        "date": "February 14, 2025",
+        "venue": "State Philharmonic",
+        "location": "Sibiu"
+      },
+      "concert4": {
+        "title": "International Music Day",
+        "date": "February 28, 2025",
+        "venue": "Concert Hall",
+        "location": "Constanța"
+      }
+    },
+    "community": {
+      "title": "Community Outreach Concerts",
+      "subtitle": "Bringing the joy of classical music to those who need it most",
+      "kindergarten": {
+        "title": "Music for Young Hearts",
+        "description": "Interactive classical music performances designed to inspire wonder and curiosity in children. Our musicians introduce young audiences to the magic of orchestral instruments through engaging, age-appropriate concerts.",
+        "badge": "Kindergartens"
+      },
+      "elderly": {
+        "title": "Melodies of Memory",
+        "description": "Intimate classical music concerts that bring joy, comfort, and nostalgia to elderly residents. Our performances create meaningful moments of connection and celebration through the timeless beauty of classical music.",
+        "badge": "Care Homes"
+      },
+      "stats": {
+        "venues": "Venues",
+        "participants": "Participants",
+        "concerts": "Concerts"
+      },
+      "impact": {
+        "title": "Music That Changes Lives",
+        "description": "Every year, we bring the transformative power of classical music to over 1,800 children and elderly individuals in underserved communities, creating moments of joy, inspiration, and connection."
+      },
+      "requestConcert": "Request a Concert for Your Venue"
+    }
+  },
+  "partners": {
+    "title": "We Work With the Best Partners",
+    "subtitle": "Together, we bring classical music to communities across Romania. Our partners share our vision of making world-class performances accessible to everyone.",
+    "cta": {
+      "becomeSponsor": "Become a Partner"
+    }
+  },
+  "newsletter": {
+    "title": "Stay Connected",
+    "subtitle": "Join our community and receive updates on upcoming events, programs, and opportunities.",
+    "placeholder": "Enter your email address",
+    "cta": "Subscribe",
+    "success": "Thank you for subscribing!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "tagline": "Elevating classical music for every generation",
+    "navigation": {
+      "title": "Navigation"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "info@weareclassic.ro",
+      "phone": "+40 123 456 789",
+      "address": "Bucharest, Romania"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "copyright": "© 2025 We Are Classic. All rights reserved."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Whether you're a potential sponsor, artist, or supporter, we'd love to hear from you.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "organization": "Organization (Optional)",
+      "role": {
+        "label": "I am a...",
+        "sponsor": "Corporate Sponsor / CSR Manager",
+        "artist": "Professional Artist / Orchestra Director",
+        "other": "Other"
+      },
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you for your message. We'll be in touch soon!",
+      "error": "Failed to send message. Please try again."
+    }
+  }
+}

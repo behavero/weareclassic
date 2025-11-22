@@ -1,0 +1,135 @@
+/* Custom GFS Didot Font - Load your .otf file */
+@font-face {
+  font-family: 'GFS Didot';
+  src: url('/fonts/GFSDidot-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GFS Didot';
+  src: url('/fonts/GFSDidot-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Sofia Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-sans text-black bg-white antialiased;
+  }
+
+  /* Enforce GFS Didot for all headlines */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline text-black font-semibold;
+  }
+  
+  /* Ensure all other text uses Inter */
+  p, span, a, button, input, textarea, label {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 sm:px-8 lg:px-16;
+  }
+
+  .section-spacing {
+    @apply py-32 lg:py-40;
+  }
+
+  .section-spacing-sm {
+    @apply py-24 lg:py-32;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-10 py-5 text-base font-medium text-white bg-blue hover:bg-blue-dark transition-all duration-300 ease-in-out rounded-md shadow-md hover:shadow-xl hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-10 py-5 text-base font-medium text-black bg-orange hover:bg-orange-dark transition-all duration-300 ease-in-out rounded-md shadow-md hover:shadow-xl hover:scale-105 active:scale-95;
+  }
+
+  .heading-display {
+    @apply font-headline text-5xl sm:text-6xl lg:text-7xl text-white leading-tight tracking-tight font-semibold;
+  }
+
+  .video-overlay {
+    @apply absolute inset-0 bg-black/40;
+  }
+
+  .section-title {
+    @apply font-headline text-5xl lg:text-6xl xl:text-7xl text-black font-semibold mb-12 lg:mb-16 leading-tight;
+  }
+
+  .section-subtitle {
+    @apply font-sans text-xl lg:text-2xl text-black/70 leading-relaxed max-w-4xl;
+  }
+
+  .content-left {
+    @apply text-left;
+  }
+
+  .bg-accent {
+    @apply bg-beige;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Scroll Animation Utilities */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Diagonal Section Divider */
+  .diagonal-divider {
+    position: relative;
+  }
+  
+  .diagonal-divider::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: inherit;
+    transform: skewY(-2deg);
+    transform-origin: bottom left;
+  }
+  
+  /* Orange Badge */
+  .badge-orange {
+    @apply inline-flex items-center px-4 py-2 bg-orange text-black font-semibold text-sm rounded-full shadow-md;
+  }
+  
+  /* Card Hover Effect */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-2;
+  }
+}
+

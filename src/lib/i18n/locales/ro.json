@@ -1,0 +1,187 @@
+{
+  "header": {
+    "logo": "We Are Classic",
+    "nav": {
+      "mission": "Misiune",
+      "concerts": "Concerte",
+      "community": "Comunitate",
+      "partners": "Parteneri"
+    },
+    "cta": "Contactează-ne",
+    "language": "Limba"
+  },
+  "hero": {
+    "headline": "Elevăm Muzica Clasică pentru Fiecare Generație",
+    "subheadline": "Conectăm tradiția cu inovația pentru a face muzica clasică accesibilă, inspiratoare și transformatoare pentru comunitățile din România.",
+    "cta": "Contactează-ne",
+    "secondaryCta": "Vezi Concerte",
+    "scroll": "Descoperă Mai Mult"
+  },
+  "mission": {
+    "title": "Misiunea Noastră",
+    "subtitle": "O Lume Unită prin Muzică Clasică",
+    "statement": "Credem că muzica clasică este un limbaj universal care transcende granițele, culturile și generațiile. Misiunea noastră este să democratizăm accesul la această formă de artă intemporală, cultivând aprecierea de la copilărie până la cariere profesionale și creând un ecosistem vibrant în care muzica înflorește.",
+    "values": {
+      "excellence": {
+        "title": "Excelență",
+        "description": "Urmărim cele mai înalte standarde în educația muzicală și performanță, susținând artiști și spectacole de clasă mondială care ridică arta."
+      },
+      "education": {
+        "title": "Educație",
+        "description": "Inspirăm tinere minți prin programe accesibile de educație muzicală clasică, oferind instrumente gratuite, coaching expert și oportunități de performanță."
+      },
+      "community": {
+        "title": "Comunitate",
+        "description": "Construim conexiuni prin experiențe muzicale partajate, aducând muzica clasică în comunitățile defavorizate din România."
+      }
+    }
+  },
+  "concerts": {
+    "future": {
+      "title": "We Are Classics - Seria de Muzică de Cameră",
+      "subtitle": "Concerte de cameră de înaltă calitate cu artiști naționali și internaționali de top la Amfiteatrul Cornel Țăranu, Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+      "featured": "Concert de Deschidere",
+      "bookNow": "Rezervă Bilete",
+      "viewAll": "Vezi Programul Complet",
+      "concert1": {
+        "title": "Concert de Deschidere - Răzvan Suma & Oana Crișu",
+        "date": "6 Decembrie 2024",
+        "time": "19:00",
+        "venue": "Amfiteatrul Cornel Țăranu",
+        "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+        "artists": "Răzvan Suma (violoncel) & Oana Crișu (pian)",
+        "description": "Recital de cameră prezentat de doi dintre cei mai cunoscuți și admirați muzicieni din România.",
+        "price": "Contactați pentru bilete"
+      },
+      "concert2": {
+        "title": "Recital de Pian Horia Mihail",
+        "date": "13 Decembrie 2024",
+        "time": "19:00",
+        "venue": "Amfiteatrul Cornel Țăranu",
+        "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+        "artists": "Horia Mihail (pian)",
+        "description": "Unul dintre cei mai respectați pianiști din România.",
+        "price": "Contactați pentru bilete"
+      },
+      "concert3": {
+        "title": "Concert Cvartet de Cameră",
+        "date": "20 Decembrie 2024",
+        "time": "19:00",
+        "venue": "Amfiteatrul Cornel Țăranu",
+        "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+        "artists": "Răzvan Dumitru (vioară), Horia Haplea (pian), Mihaela Maxim (voce), Vlad Câmpean (violoncel)",
+        "description": "O performanță excepțională de cvartet de cameră.",
+        "price": "Contactați pentru bilete"
+      }
+    },
+    "previous": {
+      "title": "Concerte Anterioare",
+      "subtitle": "Celebrând călătoria noastră muzicală prin spectacole memorabile",
+      "viewGallery": "Vezi Galeria Completă",
+      "attendees": "participanți",
+      "concert1": {
+        "title": "Gala Clasică de Iarnă 2024",
+        "date": "20 Decembrie 2024",
+        "venue": "Ateneul Român",
+        "location": "București"
+      },
+      "concert2": {
+        "title": "Concertul de Anul Nou 2025",
+        "date": "1 Ianuarie 2025",
+        "venue": "Palatul Culturii",
+        "location": "Iași"
+      },
+      "concert3": {
+        "title": "Special de Ziua Îndrăgostiților",
+        "date": "14 Februarie 2025",
+        "venue": "Filarmonica de Stat",
+        "location": "Sibiu"
+      },
+      "concert4": {
+        "title": "Ziua Internațională a Muzicii",
+        "date": "28 Februarie 2025",
+        "venue": "Sala de Concerte",
+        "location": "Constanța"
+      }
+    },
+    "community": {
+      "title": "Concerte Comunitare",
+      "subtitle": "Aducând bucuria muzicii clasice celor care au nevoie cel mai mult",
+      "kindergarten": {
+        "title": "Muzică pentru Inimi Tinere",
+        "description": "Spectacole interactive de muzică clasică concepute pentru a inspira uimire și curiozitate la copii. Muzicienii noștri introduc publicul tânăr în magia instrumentelor orchestrale prin concerte captivante, adaptate vârstei.",
+        "badge": "Grădinițe"
+      },
+      "elderly": {
+        "title": "Melodii ale Memoriei",
+        "description": "Concerte intime de muzică clasică care aduc bucurie, confort și nostalgie rezidenților vârstnici. Spectacolele noastre creează momente semnificative de conexiune și celebrare prin frumusețea intemporală a muzicii clasice.",
+        "badge": "Cămine de Bătrâni"
+      },
+      "stats": {
+        "venues": "Locații",
+        "participants": "Participanți",
+        "concerts": "Concerte"
+      },
+      "impact": {
+        "title": "Muzică Care Schimbă Vieți",
+        "description": "În fiecare an, aducem puterea transformatoare a muzicii clasice la peste 1.800 de copii și persoane vârstnice din comunitățile defavorizate, creând momente de bucurie, inspirație și conexiune."
+      },
+      "requestConcert": "Solicită un Concert pentru Locația Ta"
+    }
+  },
+  "partners": {
+    "title": "Lucrăm Cu Cei Mai Buni Parteneri",
+    "subtitle": "Împreună, aducem muzica clasică în comunitățile din România. Partenerii noștri împărtășesc viziunea noastră de a face concertele de clasă mondială accesibile tuturor.",
+    "cta": {
+      "becomeSponsor": "Devino Partener"
+    }
+  },
+  "newsletter": {
+    "title": "Rămâi Conectat",
+    "subtitle": "Alătură-te comunității noastre și primește actualizări despre evenimente, programe și oportunități viitoare.",
+    "placeholder": "Introdu adresa ta de email",
+    "cta": "Abonează-te",
+    "success": "Mulțumim pentru abonare!",
+    "error": "Ceva nu a funcționat. Te rugăm să încerci din nou."
+  },
+  "footer": {
+    "tagline": "Elevăm muzica clasică pentru fiecare generație",
+    "navigation": {
+      "title": "Navigare"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "info@weareclassic.ro",
+      "phone": "+40 123 456 789",
+      "address": "București, România"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Politica de Confidențialitate",
+      "terms": "Termeni și Condiții"
+    },
+    "social": {
+      "title": "Urmărește-ne"
+    },
+    "copyright": "© 2025 We Are Classic. Toate drepturile rezervate."
+  },
+  "contact": {
+    "title": "Ia Legătura",
+    "subtitle": "Fie că ești un potențial sponsor, artist sau susținător, ne-ar plăcea să auzim de la tine.",
+    "form": {
+      "name": "Nume Complet",
+      "email": "Adresă Email",
+      "organization": "Organizație (Opțional)",
+      "role": {
+        "label": "Sunt...",
+        "sponsor": "Sponsor Corporativ / Manager CSR",
+        "artist": "Artist Profesionist / Director de Orchestră",
+        "other": "Altceva"
+      },
+      "message": "Mesajul Tău",
+      "submit": "Trimite Mesaj",
+      "success": "Mulțumim pentru mesaj. Te vom contacta în curând!",
+      "error": "Trimiterea mesajului a eșuat. Te rugăm să încerci din nou."
+    }
+  }
+}

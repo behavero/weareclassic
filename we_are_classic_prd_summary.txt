@@ -1,0 +1,256 @@
+WE ARE CLASSIC - PRODUCT REQUIREMENTS DOCUMENT (SUMMARY)
+
+=============================================================================
+PROJECT OVERVIEW
+=============================================================================
+
+Project Name: We Are Classic NGO Landing Page
+Project Type: Marketing Website / Landing Page
+Target Launch: Q1 2025
+
+=============================================================================
+BUSINESS GOALS
+=============================================================================
+
+Primary Goal:
+- Attract and convert Corporate Sponsors (CSR Managers)
+- Attract and engage Professional Artists and Orchestra Directors
+
+Secondary Goals:
+- Build newsletter subscriber base
+- Establish brand presence and credibility
+- Communicate mission and impact effectively
+
+Critical Success Metrics:
+- Contact form submissions (Sponsors & Artists)
+- Newsletter subscription rate
+- Time on page and engagement metrics
+- Geographic reach (Romania focus)
+
+=============================================================================
+TARGET AUDIENCE
+=============================================================================
+
+Primary Audience 1: Corporate Sponsors / CSR Managers
+- Demographics: 35-55 years old, C-level executives, CSR/Marketing managers
+- Pain Points: Finding meaningful CSR partnerships, demonstrating social impact
+- Motivations: Corporate social responsibility, brand alignment, tax benefits
+- Key Message: "Support the next generation of classical musicians"
+
+Primary Audience 2: Professional Artists / Orchestra Directors
+- Demographics: 25-65 years old, professional musicians, music educators
+- Pain Points: Limited funding, lack of performance opportunities, resource constraints
+- Motivations: Career advancement, artistic expression, community impact
+- Key Message: "Join a community that values and supports your artistry"
+
+Secondary Audience: General Public
+- Music enthusiasts, parents of young musicians, community members
+- Goal: Newsletter subscriptions, event attendance, word-of-mouth marketing
+
+=============================================================================
+KEY SECTIONS & CONTENT
+=============================================================================
+
+1. HERO SECTION
+   - Full-width video background (orchestra performance)
+   - Oversized headline in GFS Didot
+   - Primary CTA: "Contact Us"
+   - Secondary action: Scroll to learn more
+
+2. VISION SECTION (#vision)
+   - Title: "Our Vision"
+   - Subtitle: "A World United by Classical Music"
+   - Three Pillars:
+     a) Education - Youth music programs
+     b) Accessibility - Breaking down barriers
+     c) Excellence - Supporting world-class performances
+   - Visual: Icons or illustrations representing each pillar
+
+3. OFFERINGS SECTION (#offerings)
+   - Title: "What We Offer"
+   - Programs:
+     a) Youth Orchestras - Free instruments, coaching, performances
+     b) Educational Outreach - School workshops and concerts
+     c) Professional Artist Support - Grants, residencies, platforms
+     d) Community Concerts - Free public performances
+   - Visual: Card-based layout with images
+
+4. IMPACT SECTION (#impact)
+   - Title: "Our Impact"
+   - Statistics Dashboard:
+     - 500+ Students Reached Annually
+     - 50+ Community Concerts Per Year
+     - 200+ Instruments Provided
+     - 30+ Artists Supported
+   - Testimonials from beneficiaries
+   - Call to action: "Be Part of This Story"
+
+5. NEWSLETTER SECTION
+   - Title: "Stay Connected"
+   - Email capture form
+   - Firebase integration for storage
+   - Bilingual support (EN/RO)
+   - Success/error messaging
+
+6. FOOTER
+   - Navigation links
+   - Contact information
+   - Social media links
+   - Legal links (Privacy Policy, Terms)
+   - Copyright notice
+
+=============================================================================
+USER JOURNEYS
+=============================================================================
+
+Journey 1: Corporate Sponsor Discovery
+1. Lands on Hero → Impressed by video and headline
+2. Scrolls to Vision → Understands mission alignment
+3. Reviews Impact → Sees measurable outcomes
+4. Clicks "Contact Us" → Fills out form with organization details
+5. Receives confirmation → Sales team follows up
+
+Journey 2: Professional Artist Engagement
+1. Lands on Hero → Relates to artistic excellence
+2. Navigates to Offerings → Discovers support programs
+3. Reviews artist testimonials in Impact section
+4. Clicks "Contact Us" → Submits application/inquiry
+5. Receives information packet → Applies to program
+
+Journey 3: General Interest / Newsletter
+1. Lands on Hero → Curious about organization
+2. Explores sections → Learns about mission
+3. Scrolls to Newsletter → Subscribes for updates
+4. Receives welcome email → Invited to upcoming concert
+
+=============================================================================
+TECHNICAL REQUIREMENTS
+=============================================================================
+
+Platform: Next.js 14 (React 18)
+Language: TypeScript (strict mode)
+Styling: Tailwind CSS (utility-first)
+Internationalization: react-i18next (EN/RO)
+Database: Firebase Firestore
+Authentication: Firebase Auth (custom token)
+
+Performance Requirements:
+- Page load: <3 seconds on 4G
+- Lighthouse score: >90
+- Mobile-optimized
+- SEO-friendly
+
+Browser Support:
+- Chrome/Edge (last 2 versions)
+- Firefox (last 2 versions)
+- Safari (last 2 versions)
+- Mobile Safari & Chrome
+
+=============================================================================
+CONTENT STRATEGY
+=============================================================================
+
+Tone of Voice:
+- Professional yet passionate
+- Inspiring and aspirational
+- Clear and accessible (avoid jargon)
+- Warm and welcoming
+
+Language:
+- Bilingual: English (default) and Romanian
+- All content must be translatable
+- No hardcoded strings in components
+
+Imagery:
+- High-quality photos of orchestras, musicians, youth programs
+- Diverse representation
+- Professional photography
+- Consistent color grading
+
+=============================================================================
+CONVERSION OPTIMIZATION
+=============================================================================
+
+Primary CTA: "Contact Us"
+- Above the fold in header
+- Prominent in Hero section
+- Repeated in Impact section
+- Dedicated Contact page
+
+Secondary CTA: Newsletter Subscription
+- Email validation
+- Immediate confirmation
+- Language preference stored
+- Privacy-compliant (GDPR)
+
+Trust Signals:
+- Impact statistics
+- Testimonials
+- Professional design
+- Secure forms (HTTPS)
+
+=============================================================================
+FUTURE ENHANCEMENTS (Post-Launch)
+=============================================================================
+
+Phase 2:
+- Event calendar integration
+- Photo gallery
+- Blog/News section
+- Partner logos showcase
+
+Phase 3:
+- Online donation platform
+- Artist application portal
+- Member login area
+- Video testimonials
+
+Phase 4:
+- E-commerce (merchandise, tickets)
+- Virtual concert streaming
+- Interactive impact dashboard
+- Advanced analytics
+
+=============================================================================
+SUCCESS CRITERIA
+=============================================================================
+
+Launch Checklist:
+✓ Fully responsive (mobile, tablet, desktop)
+✓ Bilingual (EN/RO) working correctly
+✓ Contact form functional
+✓ Newsletter subscription working
+✓ Firebase integration complete
+✓ Video embedded and optimized
+✓ All links working
+✓ Privacy Policy & Terms pages
+✓ Analytics installed
+✓ SEO metadata complete
+
+Key Performance Indicators (KPIs):
+- Contact form submissions: Target 20+/month
+- Newsletter signups: Target 100+/month
+- Bounce rate: <40%
+- Average session duration: >2 minutes
+- Pages per session: >2.5
+
+=============================================================================
+MAINTENANCE & SUPPORT
+=============================================================================
+
+Regular Updates:
+- Impact statistics (quarterly)
+- Event information (ongoing)
+- News/blog posts (monthly)
+- Photo gallery (after events)
+
+Technical Maintenance:
+- Security patches (as needed)
+- Dependency updates (monthly)
+- Performance monitoring (continuous)
+- Backup schedule (daily)
+
+=============================================================================
+END OF PRD SUMMARY
+=============================================================================
+

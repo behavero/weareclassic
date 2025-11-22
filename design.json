@@ -1,0 +1,92 @@
+{
+    "designSystemName": "WeAreClassic-HighEnd",
+    "designPrinciple": "High-end, classic elegance meets modern minimalism. Focus on spacious layouts, strong typography contrast, and exceptional media showcase.",
+    
+    "structureAndLayout": {
+      "gridSystem": "Tailwind's default 12-column system (implicit).",
+      "contentWidth": "Content should be constrained using a generous `max-w-7xl` or similar for wide, airy feel.",
+      "spacing": {
+        "sectionSeparator": "Massive vertical spacing (`py-24` to `py-32`) to create distinct, high-end sections.",
+        "componentGaps": "Generous gaps (`gap-x-12`, `gap-y-16`) between internal components and text blocks."
+      }
+    },
+    
+    "colors": {
+      "primary": {
+        "name": "Main Blue",
+        "hex": "#154363",
+        "use": "Primary Call-to-Action (CTA) buttons, navigation accents, important links."
+      },
+      "secondary": {
+        "name": "Secondary Orange",
+        "hex": "#e2a347",
+        "use": "Secondary CTA, subtle highlights, decorative lines."
+      },
+      "background": {
+        "name": "White",
+        "hex": "#FFFCFB",
+        "use": "Main background, base color for most sections."
+      },
+      "accentBackground": {
+        "name": "Beige",
+        "hex": "#ffeccb",
+        "use": "Alternating section backgrounds (e.g., Mission Statement or Stats blocks), subtle texture."
+      },
+      "textPrimary": {
+        "name": "Black",
+        "hex": "#121212",
+        "use": "All main body text, headlines, and black elements."
+      }
+    },
+    
+    "typography": {
+      "headlineFont": {
+        "family": "GFS Didot (Custom .otf)",
+        "weight": "Use semi-bold (600) or bold (700) for large display headlines.",
+        "use": "H1, H2, H3, and all major section titles. Loaded from /public/fonts/",
+        "implementation": "Custom @font-face in globals.css"
+      },
+      "bodyFont": {
+        "family": "Sofia Sans",
+        "weight": "Regular (400), Medium (500), Semi-Bold (600)",
+        "use": "Body text, navigation links, button text, and subtitles.",
+        "implementation": "Google Fonts CDN or local files"
+      },
+      "sizes": {
+        "h1": "Oversized (`text-6xl` to `text-8xl`), especially in the Hero section, scaling down on mobile.",
+        "h2": "Large and commanding (`text-4xl` to `text-5xl`).",
+        "body": "Standard but generous line height (`leading-relaxed`)."
+      }
+    },
+    
+    "uiComponents": {
+      "buttons": {
+        "style": "Rounded corners (`rounded-md`). Solid fill. Smooth hover transitions with scale and shadow.",
+        "primaryCTA": "Background: Main Blue (`#154363`). Text: White (`#FFFCFB`). Hover: scale, shadow-xl.",
+        "secondaryCTA": "Background: Orange (`#e2a347`). Text: Black. Hover: darken, lift.",
+        "animations": "All buttons MUST have hover:scale-105 and transition-all duration-300"
+      },
+      "heroSection": {
+        "media": "Full-width video embed.",
+        "overlay": "Light semi-transparent overlay (`bg-black/35`) to show video.",
+        "alignment": "Text aligned to the left.",
+        "headerTransition": "Transparent header over hero, becomes solid white on scroll."
+      },
+      "statsBlock": {
+        "style": "Large numbers in GFS Didot with orange badges. Body text in Sofia Sans.",
+        "badges": "Use orange (`#e2a347`) for '500+ attendees' style badges.",
+        "animations": "Counter animations on scroll into view."
+      },
+      "dynamicStyling": {
+        "nonRectangularForms": "Use diagonal SVG dividers or CSS skew transforms between sections to break monotony.",
+        "colorDensity": "Newsletter and Footer MUST use solid Primary Blue (#154363) background.",
+        "orangeAccents": "Bold use of Secondary Orange (#e2a347) for badges, highlights, and CTAs in dark sections."
+      },
+      "microAnimations": {
+        "scrollAnimations": "Fade-in and slide-up animations for all major sections using Intersection Observer.",
+        "cardHovers": "Concert cards: hover:shadow-xl and hover:-translate-y-2 with smooth transitions.",
+        "buttonHovers": "All buttons: hover:scale-105, background darken, smooth transition."
+      },
+      "i18nImplementation": "Language switch component in header with bordered button design. Shows 'EN' or 'RO'."
+    }
+  }

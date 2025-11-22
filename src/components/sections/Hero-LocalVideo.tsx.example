@@ -1,0 +1,138 @@
+/**
+ * Hero Component - With Local Video Background
+ * 
+ * This is an example showing how to use your local .mov video files
+ * for the Hero background instead of YouTube/Vimeo embeds.
+ * 
+ * TO USE THIS:
+ * 1. Add your video to /public/videos/hero-background.mov
+ * 2. (Optional) Convert to MP4 for better browser compatibility
+ * 3. Rename this file from .tsx.example to .tsx
+ * 4. Replace the original Hero.tsx with this version
+ */
+
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
+import { Button } from '../ui/Button';
+
+export const Hero: React.FC = () => {
+  const { t } = useTranslation();
+
+  const scrollToContent = () => {
+    const element = document.getElementById('vision');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+      {/* Local Video Background */}
+      <div className="absolute inset-0 w-full h-full">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/hero/video-poster.jpg" // Optional: Add a poster image
+        >
+          {/* Multiple formats for browser compatibility */}
+          <source src="/videos/hero-background.webm" type="video/webm" />
+          <source src="/videos/hero-background.mp4" type="video/mp4" />
+          <source src="/videos/hero-background.mov" type="video/quicktime" />
+          
+          {/* Fallback for browsers that don't support video */}
+          <div className="absolute inset-0 bg-gradient-to-br from-primary via-burgundy-dark to-primary-dark" />
+        </video>
+        
+        {/* Optional: Background pattern overlay for additional elegance */}
+        <div 
+          className="absolute inset-0 opacity-10 pointer-events-none"
+          style={{
+            backgroundImage: 'url("data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.4"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")',
+          }}
+        />
+      </div>
+
+      {/* Dark Gradient Overlay - Essential for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
+
+      {/* Content */}
+      <div className="relative z-10 container-custom text-center px-4">
+        <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-white font-bold leading-[1.1] tracking-tight mb-6 text-shadow">
+          {t('hero.headline')}
+        </h1>
+        
+        <p className="font-sans text-lg sm:text-xl md:text-2xl text-cream max-w-4xl mx-auto mb-10 leading-relaxed text-shadow">
+          {t('hero.subheadline')}
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Link href="/contact">
+            <Button variant="primary" size="lg">
+              {t('hero.cta')}
+            </Button>
+          </Link>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2">
+          <button
+            onClick={scrollToContent}
+            className="flex flex-col items-center gap-2 text-cream hover:text-gold transition-colors duration-300 group"
+            aria-label={t('hero.scroll')}
+          >
+            <span className="text-sm font-medium tracking-wide">
+              {t('hero.scroll')}
+            </span>
+            <svg
+              className="w-6 h-6 animate-bounce"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+/**
+ * PERFORMANCE TIPS:
+ * 
+ * 1. VIDEO SIZE: Keep hero video under 10MB for good loading performance
+ * 
+ * 2. VIDEO DIMENSIONS: 
+ *    - 1920x1080 (Full HD) is sufficient for background videos
+ *    - Don't use 4K unless absolutely necessary
+ * 
+ * 3. COMPRESSION:
+ *    Use FFmpeg to compress:
+ *    ffmpeg -i input.mov -vcodec h264 -crf 28 -preset slow output.mp4
+ *    (Lower CRF = better quality but larger file, try 23-30)
+ * 
+ * 4. PRELOAD:
+ *    For slower connections, add preload="metadata" to video tag
+ * 
+ * 5. MOBILE CONSIDERATIONS:
+ *    - Some mobile browsers don't autoplay videos with sound
+ *    - Always include muted attribute
+ *    - playsInline prevents fullscreen on iOS
+ * 
+ * 6. FALLBACK IMAGE:
+ *    Always provide a poster image for:
+ *    - Initial load
+ *    - Browsers that block autoplay
+ *    - Users with disabled videos
+ */
+
