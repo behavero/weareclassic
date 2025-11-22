@@ -9,7 +9,6 @@ import { PreviousConcerts } from '@/components/sections/PreviousConcerts';
 import { CommunityConcerts } from '@/components/sections/CommunityConcerts';
 import { PartnersSponsors } from '@/components/sections/PartnersSponsors';
 import { Newsletter } from '@/components/sections/Newsletter';
-import { DiagonalDivider } from '@/components/ui/DiagonalDivider';
 
 export default function Home() {
   return (
@@ -31,14 +30,8 @@ export default function Home() {
           {/* Hero Section with Video */}
           <Hero />
           
-          {/* Diagonal Divider - Breaking the rectangular form */}
-          <DiagonalDivider color="#ffeccb" direction="down" />
-          
           {/* Mission Section */}
           <Mission />
-          
-          {/* Diagonal Divider */}
-          <DiagonalDivider color="#FFFCFB" direction="up" />
           
           {/* Future Concerts with Booking */}
           <FutureConcerts />
