@@ -21,7 +21,7 @@ export const Button: React.FC<ButtonProps> = ({
     primary: 'bg-white text-blue hover:bg-white/90 focus:ring-blue/20 shadow-sm hover:shadow-md',
     secondary: 'bg-blue text-white hover:bg-blue-dark focus:ring-blue/20 shadow-sm hover:shadow-md',
     outline: 'bg-white/95 backdrop-blur-sm text-blue hover:bg-white focus:ring-blue/20 shadow-sm hover:shadow-md border border-white/20',
-    accent: 'bg-orange text-black hover:bg-orange-dark focus:ring-orange/20 shadow-sm hover:shadow-md font-semibold',
+    accent: 'bg-orange text-[#ffeccb] hover:bg-orange-dark focus:ring-orange/20 shadow-sm hover:shadow-md font-semibold',
   };
 
   const sizes = {
