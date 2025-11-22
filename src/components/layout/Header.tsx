@@ -73,7 +73,7 @@ export const Header: React.FC = () => {
           <div className="hidden lg:flex items-center gap-6">
             <LanguageSwitcher isScrolled={isScrolled} />
             <Link href="/contact">
-              <Button variant="primary" size="md">
+              <Button variant={isScrolled ? "secondary" : "primary"} size="md">
                 {t('header.cta')}
               </Button>
             </Link>

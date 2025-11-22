@@ -70,7 +70,7 @@ export const Newsletter: React.FC = () => {
               />
               <Button
                 type="submit"
-                variant="secondary"
+                variant="primary"
                 size="lg"
                 disabled={status === 'loading' || status === 'success'}
                 className="w-full"
