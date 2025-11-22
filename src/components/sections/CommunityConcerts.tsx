@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 interface CommunityConcert {
@@ -161,7 +162,7 @@ export const CommunityConcerts: React.FC = () => {
 
         {/* Call to Action - Left Aligned */}
         <div className="content-left mt-16">
-          <a
+          <Link
             href="/contact"
             className="inline-flex items-center gap-3 text-blue hover:text-blue-dark font-sans font-medium text-lg transition-colors"
           >
@@ -169,7 +170,7 @@ export const CommunityConcerts: React.FC = () => {
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
