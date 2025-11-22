@@ -42,8 +42,8 @@ export const PartnersSponsors: React.FC = () => {
               {t('partners.subtitle')}
             </p>
             <Link href="/contact">
-              <Button variant="primary" size="lg" className="group">
-                <span className="relative z-10">{t('partners.becomePartner')}</span>
+              <Button variant="secondary" size="lg" className="group">
+                {t('partners.becomePartner')}
                 <svg 
                   className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" 
                   fill="none" 

@@ -56,11 +56,11 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center px-10 py-4 text-base font-medium text-blue bg-white hover:bg-white/90 transition-all duration-200 ease-out rounded-full shadow-sm hover:shadow-md;
+    @apply inline-flex items-center justify-center px-7 py-2.5 text-base font-medium text-blue bg-white hover:bg-white/90 transition-all duration-200 ease-out rounded-full shadow-sm hover:shadow-md;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-10 py-4 text-base font-medium text-white bg-blue hover:bg-blue-dark transition-all duration-200 ease-out rounded-full shadow-sm hover:shadow-md;
+    @apply inline-flex items-center justify-center px-7 py-2.5 text-base font-medium text-white bg-blue hover:bg-blue-dark transition-all duration-200 ease-out rounded-full shadow-sm hover:shadow-md;
   }
 
   .heading-display {

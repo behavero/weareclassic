@@ -41,10 +41,10 @@ export const Hero: React.FC = () => {
             {t('hero.subheadline')}
           </p>
 
-          {/* Primary CTA - Blue Button */}
+          {/* Primary CTA - White Button on Dark Background */}
           <div className="flex gap-6">
             <Link href="/contact">
-              <Button variant="primary" size="lg">
+              <Button variant="outline" size="lg">
                 {t('hero.cta')}
               </Button>
             </Link>

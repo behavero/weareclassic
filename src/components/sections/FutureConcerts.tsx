@@ -196,7 +196,7 @@ export const FutureConcerts: React.FC = () => {
                       rel="noopener noreferrer"
                       className="block w-full"
                     >
-                      <Button variant="primary" size="md" className="w-full">
+                      <Button variant="secondary" size="md" className="w-full">
                         {t('concerts.future.bookNow')}
                       </Button>
                     </a>

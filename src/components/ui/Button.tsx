@@ -20,13 +20,13 @@ export const Button: React.FC<ButtonProps> = ({
   const variants = {
     primary: 'bg-white text-blue hover:bg-white/90 focus:ring-blue/20 shadow-sm hover:shadow-md',
     secondary: 'bg-blue text-white hover:bg-blue-dark focus:ring-blue/20 shadow-sm hover:shadow-md',
-    outline: 'border-2 border-white/30 text-white hover:border-white hover:bg-white/10 focus:ring-white/20 backdrop-blur-sm',
+    outline: 'bg-white/95 backdrop-blur-sm text-blue hover:bg-white focus:ring-blue/20 shadow-sm hover:shadow-md border border-white/20',
   };
 
   const sizes = {
-    sm: 'px-6 py-2 text-sm',
-    md: 'px-8 py-3 text-base',
-    lg: 'px-10 py-4 text-lg',
+    sm: 'px-5 py-1.5 text-sm',
+    md: 'px-7 py-2.5 text-base',
+    lg: 'px-9 py-3.5 text-base',
   };
 
   return (
