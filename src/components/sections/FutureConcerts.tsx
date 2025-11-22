@@ -16,7 +16,6 @@ interface Concert {
   price: string;
   artists: string;
   description: string;
-  featured?: boolean;
 }
 
 export const FutureConcerts: React.FC = () => {
@@ -37,7 +36,6 @@ export const FutureConcerts: React.FC = () => {
       price: t('concerts.future.concert1.price'),
       artists: t('concerts.future.concert1.artists'),
       description: t('concerts.future.concert1.description'),
-      featured: true,
     },
     {
       id: '2',
@@ -86,14 +84,12 @@ export const FutureConcerts: React.FC = () => {
           </p>
         </div>
 
-        {/* Concerts Grid with Staggered Animation */}
+        {/* Concerts Grid - All Uniform Size */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {upcomingConcerts.map((concert, index) => (
             <div
               key={concert.id}
               className={`group bg-white rounded-xl overflow-hidden transition-all duration-500 ${
-                concert.featured ? 'lg:col-span-3 lg:row-span-1' : ''
-              } ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
               style={{ 
@@ -102,7 +98,7 @@ export const FutureConcerts: React.FC = () => {
               }}
             >
               {/* Concert Image with Sophisticated Hover */}
-              <div className={`relative ${concert.featured ? 'h-96' : 'h-64'} bg-gradient-to-br from-beige to-beige-dark overflow-hidden`}>
+              <div className="relative h-64 bg-gradient-to-br from-beige to-beige-dark overflow-hidden">
                 {/* Image container with hover effect */}
                 <div className="absolute inset-0 transform transition-all duration-500 group-hover:scale-105">
                   {concert.image && (
@@ -118,13 +114,6 @@ export const FutureConcerts: React.FC = () => {
                 {/* Gradient overlay that lightens on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent group-hover:from-black/30 transition-all duration-500" />
                 
-                {/* Featured badge with enhanced styling */}
-                {concert.featured && (
-                  <div className="absolute top-6 right-6 badge-orange shadow-lg transform group-hover:scale-110 transition-transform duration-300">
-                    {t('concerts.future.featured')}
-                  </div>
-                )}
-                
                 {/* Date badge */}
                 <div className="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm px-4 py-3 rounded-lg shadow-lg">
                   <div className="font-headline text-3xl font-bold text-blue leading-none mb-1">
@@ -137,71 +126,59 @@ export const FutureConcerts: React.FC = () => {
               </div>
 
               {/* Concert Details */}
-              <div className={`p-6 ${concert.featured ? 'lg:p-8' : ''}`}>
-                <div className={concert.featured ? 'lg:grid lg:grid-cols-2 lg:gap-8' : ''}>
-                  <div>
-                    <h3 className={`font-headline ${concert.featured ? 'text-3xl lg:text-4xl' : 'text-2xl lg:text-3xl'} text-black font-semibold mb-4 leading-tight`}>
-                      {concert.title}
-                    </h3>
-                    
-                    {/* Artists */}
-                    {t(`concerts.future.concert${concert.id}.artists`) && (
-                      <div className="mb-6 p-4 bg-beige/30 rounded-md border-l-4 border-orange">
-                        <div className="flex items-start gap-3">
-                          <svg className="w-5 h-5 text-orange mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                          </svg>
-                          <div>
-                            <p className="font-sans text-sm font-semibold text-orange uppercase tracking-wide mb-1">Artists</p>
-                            <p className="font-sans text-sm text-black/80 leading-relaxed">
-                              {t(`concerts.future.concert${concert.id}.artists`)}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    )}
-                    
-                    <div className="space-y-3 mb-6">
-                      <div className="flex items-center gap-3 text-black/70">
-                        <svg className="w-5 h-5 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
-                        <span className="font-sans font-medium">{concert.date} • {concert.time}</span>
-                      </div>
-                      
-                      <div className="flex items-start gap-3 text-black/70">
-                        <svg className="w-5 h-5 text-blue mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                        <div>
-                          <div className="font-sans font-medium text-sm">{concert.venue}</div>
-                          <div className="font-sans text-sm">{concert.location}</div>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center gap-3 text-black/70">
-                        <svg className="w-5 h-5 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
-                        </svg>
-                        <span className="font-sans font-semibold text-blue text-lg">{concert.price}</span>
+              <div className="p-6">
+                <h3 className="font-headline text-2xl lg:text-3xl text-black font-semibold mb-4 leading-tight">
+                  {concert.title}
+                </h3>
+                
+                {/* Artists */}
+                {t(`concerts.future.concert${concert.id}.artists`) && (
+                  <div className="mb-6 p-4 bg-beige/30 rounded-md border-l-4 border-orange">
+                    <div className="flex items-start gap-3">
+                      <svg className="w-5 h-5 text-orange mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                      </svg>
+                      <div>
+                        <p className="font-sans text-sm font-semibold text-orange uppercase tracking-wide mb-1">Artists</p>
+                        <p className="font-sans text-sm text-black/80 leading-relaxed">
+                          {t(`concerts.future.concert${concert.id}.artists`)}
+                        </p>
                       </div>
                     </div>
                   </div>
-
-                  <div className={concert.featured ? 'flex items-end' : ''}>
-                    <a
-                      href={concert.bookingUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block w-full"
-                    >
-                      <Button variant="accent" size="md" className="w-full">
-                        {t('concerts.future.bookNow')}
-                      </Button>
-                    </a>
+                )}
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center gap-3 text-black/70">
+                    <svg className="w-5 h-5 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <span className="font-sans font-medium">{concert.date} • {concert.time}</span>
+                  </div>
+                  
+                  <div className="flex items-start gap-3 text-black/70">
+                    <svg className="w-5 h-5 text-blue mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <div>
+                      <div className="font-sans font-medium text-sm">{concert.venue}</div>
+                      <div className="font-sans text-sm">{concert.location}</div>
+                    </div>
                   </div>
                 </div>
+
+                {/* Book Tickets Button */}
+                <a
+                  href={concert.bookingUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full"
+                >
+                  <Button variant="accent" size="md" className="w-full">
+                    {t('concerts.future.bookNow')}
+                  </Button>
+                </a>
               </div>
             </div>
           ))}
