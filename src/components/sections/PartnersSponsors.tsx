@@ -21,7 +21,11 @@ export const PartnersSponsors: React.FC = () => {
       logo: '/images/sponsors/behave-logo-dark.svg',
       url: 'https://behave.ro/'
     },
-    { name: 'Partner 3', logo: '/images/sponsors/partner-3.png', url: null },
+    { 
+      name: 'PlaCello', 
+      logo: '/images/sponsors/PlaCello-logo.png',
+      url: null  // Add website URL if available
+    },
     { name: 'Partner 4', logo: '/images/sponsors/partner-4.png', url: null },
     { name: 'Partner 5', logo: '/images/sponsors/partner-5.png', url: null },
     { name: 'Partner 6', logo: '/images/sponsors/partner-6.png', url: null },
@@ -78,7 +82,7 @@ export const PartnersSponsors: React.FC = () => {
                   'lg:-translate-y-2',    // Bottom row right
                 ];
                 
-                const isRealPartner = partner.url && (partner.name === 'Luminis' || partner.name === 'Behave');
+                const isRealPartner = partner.name === 'Luminis' || partner.name === 'Behave' || partner.name === 'PlaCello';
                 
                 const content = (
                   <div className="relative w-full aspect-square group">
