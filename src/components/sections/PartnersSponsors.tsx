@@ -28,7 +28,7 @@ export const PartnersSponsors: React.FC = () => {
     },
     { 
       name: 'Annie Klaus', 
-      logo: '/images/sponsors/Annie Klaus.jpeg',
+      logo: '/images/sponsors/Annie-Klaus-logo.png',
       url: 'https://annieklaus.com/'
     },
     { name: 'Partner 5', logo: '/images/sponsors/partner-5.png', url: null },
