@@ -45,7 +45,7 @@
       "viewAll": "Vezi Programul Complet",
       "concert1": {
         "title": "Concert de Deschidere - Răzvan Suma & Oana Crișu",
-        "date": "6 Decembrie 2024",
+        "date": "6 Decembrie 2025",
         "time": "19:00",
         "venue": "Amfiteatrul Cornel Țăranu",
         "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
@@ -55,7 +55,7 @@
       },
       "concert2": {
         "title": "Recital de Pian Horia Mihail",
-        "date": "13 Decembrie 2024",
+        "date": "13 Decembrie 2025",
         "time": "19:00",
         "venue": "Amfiteatrul Cornel Țăranu",
         "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
@@ -64,13 +64,13 @@
         "price": "Contactați pentru bilete"
       },
       "concert3": {
-        "title": "Concert Cvartet de Cameră",
-        "date": "20 Decembrie 2024",
+        "title": "Concert de Muzică de Cameră",
+        "date": "20 Decembrie 2025",
         "time": "19:00",
         "venue": "Amfiteatrul Cornel Țăranu",
         "location": "Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
-        "artists": "Răzvan Dumitru (vioară), Horia Haplea (pian), Mihaela Maxim (voce), Vlad Câmpean (violoncel)",
-        "description": "O performanță excepțională de cvartet de cameră.",
+        "artists": "Mihaela Maxim (voce), Răzvan Dumitru (vioară), Horia Haplea (pian), Vlad Câmpean (violoncel)",
+        "description": "O performanță excepțională de muzică de cameră.",
         "price": "Contactați pentru bilete"
       }
     },
