@@ -9,7 +9,7 @@ export const PartnersSponsors: React.FC = () => {
   const { t } = useTranslation();
   const { ref, isVisible } = useScrollAnimation();
 
-  // Real partner data with clickable links
+  // Partner data with real logos and websites
   const partners = [
     { 
       name: 'Luminis', 
@@ -59,15 +59,15 @@ export const PartnersSponsors: React.FC = () => {
             </Link>
           </div>
 
-          {/* Right: Circular Partner Logos - Two Column Layout */}
+          {/* Right: Circular Partner Logos - Organic Grid */}
           <div className="relative">
-            {/* Two column grid for partners */}
+            {/* Grid layout for 2 partners */}
             <div className="grid grid-cols-2 gap-8 lg:gap-12 max-w-md mx-auto">
               {partners.map((partner, index) => {
-                // Create subtle offset pattern
+                // Create organic offset pattern
                 const offsetClasses = [
                   'lg:translate-y-0',     // Left
-                  'lg:-translate-y-4',    // Right (slightly higher)
+                  'lg:-translate-y-6',    // Right (slightly higher)
                 ];
                 
                 return (
@@ -76,24 +76,24 @@ export const PartnersSponsors: React.FC = () => {
                     href={partner.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`group flex items-center justify-center transition-all duration-500 ${
+                    className={`flex items-center justify-center transition-all duration-500 group ${
                       isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
                     } ${offsetClasses[index]}`}
                     style={{ transitionDelay: `${index * 100}ms` }}
                   >
                     {/* Circular container with sophisticated hover */}
                     <div className="relative w-full aspect-square">
-                      <div className="absolute inset-0 rounded-full bg-white border-2 border-beige group-hover:border-blue transition-all duration-300 shadow-md hover:shadow-xl flex items-center justify-center overflow-hidden p-6">
+                      <div className="absolute inset-0 rounded-full bg-white border-2 border-beige group-hover:border-blue transition-all duration-300 shadow-md hover:shadow-xl flex items-center justify-center overflow-hidden p-6 lg:p-8">
                         {/* Hover gradient overlay */}
                         <div className="absolute inset-0 bg-gradient-to-br from-blue/0 to-orange/0 group-hover:from-blue/5 group-hover:to-orange/5 transition-all duration-500" />
                         
                         {/* Partner logo */}
-                        <div className="relative w-full h-full z-10 flex items-center justify-center">
+                        <div className="relative w-full h-full z-10">
                           <Image
                             src={partner.logo}
                             alt={partner.name}
                             fill
-                            className="object-contain p-4 filter grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
+                            className="object-contain filter grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                           />
                         </div>
                       </div>
