@@ -5,34 +5,50 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { Input } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
+import { submitContactForm } from '@/lib/firebase/contact';
 
 export default function Contact() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     organization: '',
-    role: 'other',
+    role: 'other' as 'sponsor' | 'artist' | 'other',
     message: '',
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
+    setErrorMessage('');
 
-    // TODO: Implement Firebase submission
-    // For now, simulate success
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        organization: '',
-        role: 'other',
-        message: '',
-      });
-    }, 1000);
+    try {
+      const result = await submitContactForm(formData, i18n.language);
+      
+      if (result.success) {
+        setStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          organization: '',
+          role: 'other',
+          message: '',
+        });
+        
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setStatus('idle');
+        }, 5000);
+      } else {
+        setStatus('error');
+        setErrorMessage(result.message);
+      }
+    } catch (error) {
+      setStatus('error');
+      setErrorMessage(t('contact.form.error'));
+    }
   };
 
   const handleChange = (field: string, value: string) => {
@@ -137,7 +153,7 @@ export default function Contact() {
 
                 {status === 'error' && (
                   <div className="p-4 bg-red-100 text-red-800 border border-red-300 rounded-md">
-                    {t('contact.form.error')}
+                    {errorMessage || t('contact.form.error')}
                   </div>
                 )}
 
