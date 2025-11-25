@@ -9,15 +9,18 @@ export const PartnersSponsors: React.FC = () => {
   const { t } = useTranslation();
   const { ref, isVisible } = useScrollAnimation();
 
-  // Placeholder partner/sponsor data
-  // Replace with real partner logos later
+  // Real partner data with clickable links
   const partners = [
-    { name: 'Partner 1', logo: '/images/sponsors/partner-1.png' },
-    { name: 'Partner 2', logo: '/images/sponsors/partner-2.png' },
-    { name: 'Partner 3', logo: '/images/sponsors/partner-3.png' },
-    { name: 'Partner 4', logo: '/images/sponsors/partner-4.png' },
-    { name: 'Partner 5', logo: '/images/sponsors/partner-5.png' },
-    { name: 'Partner 6', logo: '/images/sponsors/partner-6.png' },
+    { 
+      name: 'Luminis', 
+      logo: '/images/sponsors/Luminis_dark.png',
+      website: 'https://www.luminis.ro/'
+    },
+    { 
+      name: 'Behave', 
+      logo: '/images/sponsors/behave-logo-dark.svg',
+      website: 'https://behave.ro/'
+    },
   ];
 
   return (
@@ -56,59 +59,49 @@ export const PartnersSponsors: React.FC = () => {
             </Link>
           </div>
 
-          {/* Right: Circular Partner Logos - Organic Grid */}
+          {/* Right: Circular Partner Logos - Two Column Layout */}
           <div className="relative">
-            {/* Organic, offset grid layout */}
-            <div className="grid grid-cols-3 gap-6 lg:gap-8">
+            {/* Two column grid for partners */}
+            <div className="grid grid-cols-2 gap-8 lg:gap-12 max-w-md mx-auto">
               {partners.map((partner, index) => {
-                // Create organic offset pattern
+                // Create subtle offset pattern
                 const offsetClasses = [
-                  'lg:translate-y-0',     // Top row left
-                  'lg:-translate-y-4',    // Top row center
-                  'lg:translate-y-2',     // Top row right
-                  'lg:translate-y-4',     // Bottom row left
-                  'lg:translate-y-0',     // Bottom row center
-                  'lg:-translate-y-2',    // Bottom row right
+                  'lg:translate-y-0',     // Left
+                  'lg:-translate-y-4',    // Right (slightly higher)
                 ];
                 
                 return (
-                  <div
+                  <a
                     key={index}
-                    className={`flex items-center justify-center transition-all duration-500 ${
+                    href={partner.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`group flex items-center justify-center transition-all duration-500 ${
                       isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
                     } ${offsetClasses[index]}`}
                     style={{ transitionDelay: `${index * 100}ms` }}
                   >
                     {/* Circular container with sophisticated hover */}
                     <div className="relative w-full aspect-square">
-                      <div className="absolute inset-0 rounded-full bg-white border-2 border-beige group hover:border-blue transition-all duration-300 shadow-md hover:shadow-xl flex items-center justify-center overflow-hidden">
+                      <div className="absolute inset-0 rounded-full bg-white border-2 border-beige group-hover:border-blue transition-all duration-300 shadow-md hover:shadow-xl flex items-center justify-center overflow-hidden p-6">
                         {/* Hover gradient overlay */}
                         <div className="absolute inset-0 bg-gradient-to-br from-blue/0 to-orange/0 group-hover:from-blue/5 group-hover:to-orange/5 transition-all duration-500" />
                         
-                        {/* Placeholder content */}
-                        <div className="relative z-10 text-center p-4">
-                          <div className="font-headline text-sm lg:text-base text-black/40 group-hover:text-blue transition-colors duration-300">
-                            {partner.name}
-                          </div>
-                        </div>
-                        
-                        {/* 
-                        // Uncomment when you have actual logos:
-                        <div className="relative w-2/3 h-2/3 z-10">
+                        {/* Partner logo */}
+                        <div className="relative w-full h-full z-10 flex items-center justify-center">
                           <Image
                             src={partner.logo}
                             alt={partner.name}
                             fill
-                            className="object-contain filter grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
+                            className="object-contain p-4 filter grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                           />
                         </div>
-                        */}
                       </div>
                       
                       {/* Decorative ring on hover */}
                       <div className="absolute inset-0 rounded-full border-2 border-orange scale-0 group-hover:scale-110 opacity-0 group-hover:opacity-30 transition-all duration-500" />
                     </div>
-                  </div>
+                  </a>
                 );
               })}
             </div>
