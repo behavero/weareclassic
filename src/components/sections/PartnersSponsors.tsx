@@ -26,7 +26,11 @@ export const PartnersSponsors: React.FC = () => {
       logo: '/images/sponsors/PlaCello-logo.png',
       url: null  // Add website URL if available
     },
-    { name: 'Partner 4', logo: '/images/sponsors/partner-4.png', url: null },
+    { 
+      name: 'Annie Klaus', 
+      logo: '/images/sponsors/Annie Klaus.jpeg',
+      url: 'https://annieklaus.com/'
+    },
     { name: 'Partner 5', logo: '/images/sponsors/partner-5.png', url: null },
     { name: 'Partner 6', logo: '/images/sponsors/partner-6.png', url: null },
   ];
@@ -82,7 +86,7 @@ export const PartnersSponsors: React.FC = () => {
                   'lg:-translate-y-2',    // Bottom row right
                 ];
                 
-                const isRealPartner = partner.name === 'Luminis' || partner.name === 'Behave' || partner.name === 'PlaCello';
+                const isRealPartner = partner.name === 'Luminis' || partner.name === 'Behave' || partner.name === 'PlaCello' || partner.name === 'Annie Klaus';
                 
                 const content = (
                   <div className="relative w-full aspect-square group">
