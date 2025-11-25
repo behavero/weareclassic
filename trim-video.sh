@@ -77,3 +77,5 @@ echo "Next steps:"
 echo "1. Test the videos: npm run dev"
 echo "2. If good, delete originals: rm hero-background-original.*"
 
+
+

@@ -273,3 +273,5 @@ To:
 
 **Perfect!** The Partners section now matches your reference design - clean, simple, and elegant! 🎻
 
+
+

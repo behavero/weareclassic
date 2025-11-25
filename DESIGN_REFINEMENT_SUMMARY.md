@@ -440,3 +440,5 @@ All changes strictly adhere to `design.json`:
 
 **Summary:** The website now reflects a **high-end, minimalist, classical music NGO** aesthetic that prioritizes content, readability, and visual elegance over decorative elements.
 
+
+

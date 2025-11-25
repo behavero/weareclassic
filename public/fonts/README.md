@@ -28,3 +28,5 @@ SofiaSans-Bold.otf
 2. The fonts will be automatically loaded via `globals.css`
 3. Test with: `npm run dev`
 
+
+

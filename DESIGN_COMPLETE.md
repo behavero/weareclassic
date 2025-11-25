@@ -252,3 +252,5 @@ Your website now reflects a **premium, minimalist, classical music NGO** aesthet
 
 **Next Step:** Run `npm run dev` and open `http://localhost:3000` to see the transformation! 🚀
 
+
+

@@ -11,35 +11,35 @@
     "language": "Language"
   },
   "hero": {
-    "headline": "Elevating Classical Music for Every Generation",
-    "subheadline": "Bridging tradition and innovation to make classical music accessible, inspiring, and transformative for communities across Romania.",
+    "headline": "Promoting Excellence in Classical Music",
+    "subheadline": "We Are Classics is a cultural association and NGO dedicated to bringing classical music and its performers into the spotlight through cinematic recordings, professional promotion, and innovative cultural projects across Romania.",
     "cta": "Contact Us",
     "secondaryCta": "View Concerts",
     "scroll": "Discover More"
   },
   "mission": {
     "title": "Our Mission",
-    "subtitle": "A World United by Classical Music",
-    "statement": "We believe classical music is a universal language that transcends borders, cultures, and generations. Our mission is to democratize access to this timeless art form, nurturing appreciation from childhood through professional careers, and creating a vibrant ecosystem where music flourishes.",
+    "subtitle": "Creating Real Visibility and Authentic Opportunities",
+    "statement": "We Are Classics creates visibility and opportunities for artists, institutions, and the entire musical community. We provide cinematic-quality video and audio recordings, professional promotion, and innovative cultural projects that support both established artists and young talents while bringing fresh breath to Romania's artistic life.",
     "values": {
       "excellence": {
-        "title": "Excellence",
-        "description": "We pursue the highest standards in musical education and performance, supporting world-class artists and performances that elevate the art form."
+        "title": "Artistic Excellence",
+        "description": "We place classical music and its performers on a pedestal worthy of their value and tradition, promoting excellence through the flagship 'We Are Classics Series' and supporting cultural institutions and festivals across Romania."
       },
       "education": {
-        "title": "Education",
-        "description": "We inspire young minds through accessible classical music education programs, providing free instruments, expert coaching, and performance opportunities."
+        "title": "Youth & Education",
+        "description": "We develop platforms that generate concerts for young talents and educational projects, bringing classical music closer to children through short, creative, and engaging workshops."
       },
       "community": {
-        "title": "Community",
-        "description": "We build connections through shared musical experiences, bringing classical music to underserved communities across Romania."
+        "title": "Social Impact",
+        "description": "We build a community of socially engaged musicians who perform in nursing homes, hospitals, and social centers, offering moments of joy, comfort, and culture to those who need it most."
       }
     }
   },
   "concerts": {
     "future": {
-      "title": "We Are Classics - Chamber Music Series",
-      "subtitle": "High-quality chamber concerts featuring top national and international artists at Amfiteatrul Cornel Țăranu, Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+      "title": "We Are Classics Series",
+      "subtitle": "Our flagship project bringing some of the most important contemporary artists to Cluj's stages. Exceptional chamber concerts promoting artistic excellence in a refined and professional setting at Amfiteatrul Cornel Țăranu, Academia Națională de Muzică \"Gheorghe Dima\".",
       "featured": "Opening Concert",
       "bookNow": "Book Tickets",
       "viewAll": "View Full Concert Schedule",
@@ -145,7 +145,7 @@
     "error": "Something went wrong. Please try again."
   },
   "footer": {
-    "tagline": "Elevating classical music for every generation",
+    "tagline": "A cultural association dedicated to promoting excellence in classical music in Romania",
     "navigation": {
       "title": "Navigation"
     },

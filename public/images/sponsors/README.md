@@ -37,3 +37,5 @@ const partners = [
 
 Then uncomment the Image component in the component file.
 
+
+

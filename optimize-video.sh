@@ -79,3 +79,5 @@ echo "1. Test the video: npm run dev"
 echo "2. Check http://localhost:3000"
 echo "3. If it works, delete the original: rm hero-background.mov"
 
+
+

@@ -11,35 +11,35 @@
     "language": "Limba"
   },
   "hero": {
-    "headline": "Elevăm Muzica Clasică pentru Fiecare Generație",
-    "subheadline": "Conectăm tradiția cu inovația pentru a face muzica clasică accesibilă, inspiratoare și transformatoare pentru comunitățile din România.",
+    "headline": "Promovăm Excelența în Muzica Clasică",
+    "subheadline": "We Are Classics este o asociație culturală și ONG dedicată aducerii muzicii clasice și interpreților săi în prim-plan prin înregistrări cinematografice, promovare profesională și proiecte culturale inovatoare în România.",
     "cta": "Contactează-ne",
     "secondaryCta": "Vezi Concerte",
     "scroll": "Descoperă Mai Mult"
   },
   "mission": {
     "title": "Misiunea Noastră",
-    "subtitle": "O Lume Unită prin Muzică Clasică",
-    "statement": "Credem că muzica clasică este un limbaj universal care transcende granițele, culturile și generațiile. Misiunea noastră este să democratizăm accesul la această formă de artă intemporală, cultivând aprecierea de la copilărie până la cariere profesionale și creând un ecosistem vibrant în care muzica înflorește.",
+    "subtitle": "Creăm Vizibilitate Reală și Oportunități Autentice",
+    "statement": "We Are Classics creează vizibilitate și oportunități pentru artiști, instituții și întreaga comunitate muzicală. Oferim înregistrări video și audio de calitate cinematografică, promovare profesională și proiecte culturale inovatoare care susțin atât artiști consacrați, cât și talente tinere, aducând o suflare nouă vieții artistice din România.",
     "values": {
       "excellence": {
-        "title": "Excelență",
-        "description": "Urmărim cele mai înalte standarde în educația muzicală și performanță, susținând artiști și spectacole de clasă mondială care ridică arta."
+        "title": "Excelență Artistică",
+        "description": "Amplasăm muzica clasică și interpreții săi pe un piedestal demn de valoarea și tradiția lor, promovând excelența prin seria emblematică 'We Are Classics' și susținând instituții culturale și festivaluri din România."
       },
       "education": {
-        "title": "Educație",
-        "description": "Inspirăm tinere minți prin programe accesibile de educație muzicală clasică, oferind instrumente gratuite, coaching expert și oportunități de performanță."
+        "title": "Tineret & Educație",
+        "description": "Dezvoltăm platforme care generează concerte dedicate tinerelor talente și proiecte educaționale, apropiind muzica clasică de copii prin ateliere scurte, creative și captivante."
       },
       "community": {
-        "title": "Comunitate",
-        "description": "Construim conexiuni prin experiențe muzicale partajate, aducând muzica clasică în comunitățile defavorizate din România."
+        "title": "Impact Social",
+        "description": "Construim o comunitate de muzicieni implicați social care performează în cămine de bătrâni, spitale și centre sociale, oferind momente de bucurie, confort și cultură celor care au cea mai mare nevoie."
       }
     }
   },
   "concerts": {
     "future": {
-      "title": "We Are Classics - Seria de Muzică de Cameră",
-      "subtitle": "Concerte de cameră de înaltă calitate cu artiști naționali și internaționali de top la Amfiteatrul Cornel Țăranu, Academia Națională de Muzică \"Gheorghe Dima\", Cluj-Napoca",
+      "title": "Seria We Are Classics",
+      "subtitle": "Proiectul nostru emblematic care aduce pe scenele Clujului unii dintre cei mai importanți artiști contemporani. Concerte excepționale de cameră care promovează excelența artistică într-un cadru rafinat și profesional la Amfiteatrul Cornel Țăranu, Academia Națională de Muzică \"Gheorghe Dima\".",
       "featured": "Concert de Deschidere",
       "bookNow": "Rezervă Bilete",
       "viewAll": "Vezi Programul Complet",
@@ -145,7 +145,7 @@
     "error": "Ceva nu a funcționat. Te rugăm să încerci din nou."
   },
   "footer": {
-    "tagline": "Elevăm muzica clasică pentru fiecare generație",
+    "tagline": "O asociație culturală dedicată promovării excelenței în muzica clasică în România",
     "navigation": {
       "title": "Navigare"
     },

@@ -270,3 +270,5 @@ When deploying to production (Vercel, Netlify, etc.):
 
 **Your Firebase project is ready to go! Just add your configuration credentials and start testing.** 🔥
 
+
+
