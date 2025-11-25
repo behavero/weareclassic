@@ -27,7 +27,7 @@ export const CommunityConcerts: React.FC = () => {
       type: 'kindergarten',
       title: t('concerts.community.kindergarten.title'),
       description: t('concerts.community.kindergarten.description'),
-      image: '/images/community/kindergarten.jpg',
+      image: '/images/gallery/incoming pictures.jpg',
       stats: {
         venues: 25,
         participants: 1200,
@@ -39,7 +39,7 @@ export const CommunityConcerts: React.FC = () => {
       type: 'elderly',
       title: t('concerts.community.elderly.title'),
       description: t('concerts.community.elderly.description'),
-      image: '/images/community/elderly.jpg',
+      image: '/images/gallery/incoming pictures.jpg',
       stats: {
         venues: 15,
         participants: 600,

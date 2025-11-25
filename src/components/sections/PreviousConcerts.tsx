@@ -34,7 +34,7 @@ export const PreviousConcerts: React.FC = () => {
       date: t('concerts.previous.concert2.date'),
       venue: t('concerts.previous.concert2.venue'),
       location: t('concerts.previous.concert2.location'),
-      image: '/images/concerts/past-2.jpg',
+      image: '/images/gallery/incoming pictures.jpg',
       attendees: 350,
     },
     {
@@ -43,7 +43,7 @@ export const PreviousConcerts: React.FC = () => {
       date: t('concerts.previous.concert3.date'),
       venue: t('concerts.previous.concert3.venue'),
       location: t('concerts.previous.concert3.location'),
-      image: '/images/concerts/past-3.jpg',
+      image: '/images/gallery/incoming pictures.jpg',
       attendees: 400,
     },
     {
@@ -52,7 +52,7 @@ export const PreviousConcerts: React.FC = () => {
       date: t('concerts.previous.concert4.date'),
       venue: t('concerts.previous.concert4.venue'),
       location: t('concerts.previous.concert4.location'),
-      image: '/images/concerts/past-4.jpg',
+      image: '/images/gallery/incoming pictures.jpg',
       videoUrl: '/videos/concert-4-highlights.mp4',
       attendees: 600,
     },
