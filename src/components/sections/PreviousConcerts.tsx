@@ -26,9 +26,7 @@ export const PreviousConcerts: React.FC = () => {
       date: t('concerts.previous.concert1.date'),
       venue: t('concerts.previous.concert1.venue'),
       location: t('concerts.previous.concert1.location'),
-      image: '/images/concerts/past-1.jpg',
-      videoUrl: '/videos/concert-1-highlights.mp4',
-      attendees: 500,
+      image: '/images/gallery/IMG_2137.jpeg',
     },
     {
       id: '2',
