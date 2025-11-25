@@ -1,5 +1,5 @@
 import { initializeApp, getApps, FirebaseApp } from 'firebase/app';
-import { getAuth, signInWithCustomToken, Auth } from 'firebase/auth';
+import { getAuth, signInAnonymously, Auth } from 'firebase/auth';
 import { getFirestore, Firestore } from 'firebase/firestore';
 
 // Global variables provided by the environment
@@ -63,16 +63,14 @@ export const authenticateUser = async (): Promise<string | null> => {
     return auth.currentUser.uid;
   }
 
-  // Start new authentication
+  // Start new authentication with anonymous sign-in
   isAuthenticating = true;
   authPromise = (async () => {
     try {
-      const token = window.__initial_auth_token;
-      if (token) {
-        const userCredential = await signInWithCustomToken(auth, token);
-        return userCredential.user.uid;
-      }
-      return null;
+      // Sign in anonymously for public access
+      const userCredential = await signInAnonymously(auth);
+      console.log('User authenticated anonymously:', userCredential.user.uid);
+      return userCredential.user.uid;
     } catch (error) {
       console.error('Firebase authentication error:', error);
       return null;
