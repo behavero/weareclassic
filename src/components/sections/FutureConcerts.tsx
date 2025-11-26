@@ -32,7 +32,7 @@ export const FutureConcerts: React.FC = () => {
       venue: t('concerts.future.concert1.venue'),
       location: t('concerts.future.concert1.location'),
       image: '/images/gallery/incoming pictures.jpg',
-      bookingUrl: 'https://your-booking-platform.com/concert-1',
+      bookingUrl: 'https://www.eventino.co/we-are-classics/1216',
       price: t('concerts.future.concert1.price'),
       artists: t('concerts.future.concert1.artists'),
       description: t('concerts.future.concert1.description'),

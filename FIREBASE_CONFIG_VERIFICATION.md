@@ -186,3 +186,4 @@ Once you enable Anonymous Authentication, your website will have:
 
 [→ Go to Firebase Authentication Settings](https://console.firebase.google.com/project/weareclassic/authentication/providers)
 
+
