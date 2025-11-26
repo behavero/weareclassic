@@ -31,7 +31,7 @@ export const FutureConcerts: React.FC = () => {
       time: t('concerts.future.concert1.time'),
       venue: t('concerts.future.concert1.venue'),
       location: t('concerts.future.concert1.location'),
-      image: '/images/gallery/incoming pictures.jpg',
+      image: '/images/gallery/Opening Concert - Răzvan Suma & Oana Crișu.jpeg',
       bookingUrl: 'https://www.eventino.co/we-are-classics/1216',
       price: t('concerts.future.concert1.price'),
       artists: t('concerts.future.concert1.artists'),
