@@ -156,18 +156,6 @@ export const ConcertsCatalog: React.FC = () => {
         </div>
       </div>
 
-      {/* About We Are Classics Series */}
-      <div className="section-spacing bg-white">
-        <div className="container-custom text-center max-w-4xl mx-auto">
-          <h2 className="section-title text-primary-blue mb-6">
-            {t('concerts.catalog.about.title')}
-          </h2>
-          <p className="text-xl text-black/70 leading-relaxed">
-            {t('concerts.catalog.about.description')}
-          </p>
-        </div>
-      </div>
-
       {/* Upcoming Concerts */}
       <div id="upcoming" className="section-spacing bg-beige">
         <div className="container-custom">
