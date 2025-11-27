@@ -318,5 +318,114 @@
       "primaryButton": "Schedule a Workshop",
       "secondaryButton": "Download Program Details"
     }
+  },
+  "community": {
+    "hero": {
+      "badge": "Community Outreach",
+      "title": "Melodies of Memory",
+      "subtitle": "Bringing the healing power of classical music to elder care homes, hospitals, and social centers",
+      "cta": "Invite Us to Your Facility"
+    },
+    "mission": {
+      "title": "Our Community Mission",
+      "description": "We believe music has the power to heal, comfort, and connect. Our specially curated concerts bring the beauty of classical music to elderly residents in care homes, patients in hospitals, and individuals in social centers who may not have access to live performances. Each concert is designed to evoke cherished memories, provide moments of joy, and create meaningful human connections."
+    },
+    "approach": {
+      "title": "Our Approach",
+      "subtitle": "We create intimate, meaningful musical experiences tailored to the unique needs of each community.",
+      "step1": {
+        "title": "Intimate Settings",
+        "description": "Small ensemble performances designed for intimate spaces and personal connection."
+      },
+      "step2": {
+        "title": "Familiar Repertoire",
+        "description": "Carefully selected pieces that resonate with life experiences and evoke positive memories."
+      },
+      "step3": {
+        "title": "Interactive Format",
+        "description": "Musicians engage directly with residents, sharing stories and inviting participation."
+      },
+      "step4": {
+        "title": "Therapeutic Impact",
+        "description": "Music proven to reduce stress, improve mood, and stimulate cognitive function."
+      }
+    },
+    "featured": {
+      "badge": "The Power of Music",
+      "title": "More Than Just a Concert",
+      "description": "Our community concerts are carefully designed therapeutic experiences that combine live classical music with genuine human interaction. Research shows that music can significantly improve quality of life for elderly individuals, those with dementia, and patients recovering from illness.",
+      "benefit1": "Reduces anxiety and agitation in residents with dementia",
+      "benefit2": "Stimulates memory recall and cognitive engagement",
+      "benefit3": "Creates moments of joy and emotional connection",
+      "benefit4": "Provides entertainment and cultural enrichment"
+    },
+    "venues": {
+      "title": "Where We Perform",
+      "subtitle": "We partner with care facilities and social centers across Cluj-Napoca and surrounding regions.",
+      "concertsPerYear": "concerts/year",
+      "venue1": {
+        "name": "Casa de Bătrâni 'Sf. Andrei'",
+        "type": "Elder Care Home",
+        "location": "Cluj-Napoca"
+      },
+      "venue2": {
+        "name": "Spitalul Clinic Municipal",
+        "type": "Hospital Rehabilitation Ward",
+        "location": "Cluj-Napoca"
+      },
+      "venue3": {
+        "name": "Centrul Social 'Speranța'",
+        "type": "Social Center",
+        "location": "Cluj-Napoca"
+      },
+      "venue4": {
+        "name": "Căminul de Bătrâni 'Sf. Maria'",
+        "type": "Elder Care Facility",
+        "location": "Turda"
+      },
+      "venue5": {
+        "name": "Centrul de Îngrijire 'Caritas'",
+        "type": "Nursing Home",
+        "location": "Gherla"
+      },
+      "venue6": {
+        "name": "Spitalul Județean",
+        "type": "County Hospital",
+        "location": "Cluj-Napoca"
+      }
+    },
+    "impact": {
+      "stat1": {
+        "number": "600+",
+        "label": "Elderly Individuals Reached"
+      },
+      "stat2": {
+        "number": "15+",
+        "label": "Care Facilities"
+      },
+      "stat3": {
+        "number": "30+",
+        "label": "Annual Concerts"
+      }
+    },
+    "testimonials": {
+      "title": "What They're Saying",
+      "subtitle": "Feedback from care staff and facility administrators",
+      "testimonial1": {
+        "quote": "The concerts bring so much joy to our residents. We see people who haven't smiled in weeks light up when the musicians begin to play. It's truly magical.",
+        "name": "Maria Ionescu",
+        "role": "Director, Casa de Bătrâni 'Sf. Andrei'"
+      },
+      "testimonial2": {
+        "quote": "Music therapy has become an integral part of our rehabilitation program. The We Are Classic concerts provide our patients with moments of beauty and normalcy during difficult times.",
+        "name": "Dr. Alexandru Popescu",
+        "role": "Chief of Rehabilitation, Spitalul Clinic Municipal"
+      }
+    },
+    "finalCta": {
+      "title": "Bring Music to Your Community",
+      "description": "If you represent an elder care facility, hospital, or social center and would like to host one of our concerts, we'd love to hear from you. All performances are offered free of charge.",
+      "button": "Request a Concert"
+    }
   }
 }

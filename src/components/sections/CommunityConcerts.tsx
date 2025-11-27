@@ -69,10 +69,14 @@ export const CommunityConcerts: React.FC = () => {
 
         {/* Programs Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 mb-16">
-          {communityPrograms.map((program) => (
-            <div
+          {communityPrograms.map((program) => {
+            const linkUrl = program.type === 'kindergarten' ? '/education' : '/community';
+            
+            return (
+            <Link
               key={program.id}
-              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+              href={linkUrl}
+              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer group"
             >
               {/* Program Image */}
               <div className="relative h-80 bg-black/10">
@@ -141,8 +145,9 @@ export const CommunityConcerts: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            </Link>
+          );
+          })}
         </div>
 
         {/* Impact Statement */}

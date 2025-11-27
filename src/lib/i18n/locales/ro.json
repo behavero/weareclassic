@@ -318,5 +318,114 @@
       "primaryButton": "Programează un Atelier",
       "secondaryButton": "Descarcă Detalii Program"
     }
+  },
+  "community": {
+    "hero": {
+      "badge": "Implicare Comunitară",
+      "title": "Melodii ale Memoriei",
+      "subtitle": "Aducem puterea vindecătoare a muzicii clasice în cămine de bătrâni, spitale și centre sociale",
+      "cta": "Invită-ne la Facilitatea Ta"
+    },
+    "mission": {
+      "title": "Misiunea Noastră Comunitară",
+      "description": "Credem că muzica are puterea de a vindeca, consola și conecta. Concertele noastre special concepute aduc frumusețea muzicii clasice rezidenților vârstnici din căminele de îngrijire, pacienților din spitale și persoanelor din centrele sociale care ar putea să nu aibă acces la spectacole live. Fiecare concert este conceput pentru a evoca amintiri dragi, pentru a oferi momente de bucurie și pentru a crea conexiuni umane semnificative."
+    },
+    "approach": {
+      "title": "Abordarea Noastră",
+      "subtitle": "Creăm experiențe muzicale intime și semnificative adaptate nevoilor unice ale fiecărei comunități.",
+      "step1": {
+        "title": "Cadre Intime",
+        "description": "Spectacole de ansamblu mic concepute pentru spații intime și conexiune personală."
+      },
+      "step2": {
+        "title": "Repertoriu Familiar",
+        "description": "Piese atent selectate care rezonează cu experiențele de viață și evocă amintiri pozitive."
+      },
+      "step3": {
+        "title": "Format Interactiv",
+        "description": "Muzicienii se implică direct cu rezidenții, împărtășind povești și invitând la participare."
+      },
+      "step4": {
+        "title": "Impact Terapeutic",
+        "description": "Muzică dovedită a reduce stresul, a îmbunătăți starea de spirit și a stimula funcția cognitivă."
+      }
+    },
+    "featured": {
+      "badge": "Puterea Muzicii",
+      "title": "Mai Mult Decât un Concert",
+      "description": "Concertele noastre comunitare sunt experiențe terapeutice atent concepute care combină muzica clasică live cu interacțiunea umană genuină. Cercetările arată că muzica poate îmbunătăți semnificativ calitatea vieții pentru persoanele vârstnice, cele cu demență și pacienții care se recuperează după boală.",
+      "benefit1": "Reduce anxietatea și agitația la rezidenții cu demență",
+      "benefit2": "Stimulează reamintirea memoriei și implicarea cognitivă",
+      "benefit3": "Creează momente de bucurie și conexiune emoțională",
+      "benefit4": "Oferă divertisment și îmbogățire culturală"
+    },
+    "venues": {
+      "title": "Unde Performăm",
+      "subtitle": "Colaborăm cu facilități de îngrijire și centre sociale din Cluj-Napoca și regiunile înconjurătoare.",
+      "concertsPerYear": "concerte/an",
+      "venue1": {
+        "name": "Casa de Bătrâni 'Sf. Andrei'",
+        "type": "Cămin de Bătrâni",
+        "location": "Cluj-Napoca"
+      },
+      "venue2": {
+        "name": "Spitalul Clinic Municipal",
+        "type": "Secție Recuperare Spital",
+        "location": "Cluj-Napoca"
+      },
+      "venue3": {
+        "name": "Centrul Social 'Speranța'",
+        "type": "Centru Social",
+        "location": "Cluj-Napoca"
+      },
+      "venue4": {
+        "name": "Căminul de Bătrâni 'Sf. Maria'",
+        "type": "Facilitate Îngrijire Vârstnici",
+        "location": "Turda"
+      },
+      "venue5": {
+        "name": "Centrul de Îngrijire 'Caritas'",
+        "type": "Cămin de Îngrijire",
+        "location": "Gherla"
+      },
+      "venue6": {
+        "name": "Spitalul Județean",
+        "type": "Spital Județean",
+        "location": "Cluj-Napoca"
+      }
+    },
+    "impact": {
+      "stat1": {
+        "number": "600+",
+        "label": "Persoane Vârstnice Ajunse"
+      },
+      "stat2": {
+        "number": "15+",
+        "label": "Facilități de Îngrijire"
+      },
+      "stat3": {
+        "number": "30+",
+        "label": "Concerte Anuale"
+      }
+    },
+    "testimonials": {
+      "title": "Ce Spun Ei",
+      "subtitle": "Feedback de la personalul de îngrijire și administratorii facilităților",
+      "testimonial1": {
+        "quote": "Concertele aduc atâta bucurie rezidenților noștri. Vedem oameni care nu au zâmbit de săptămâni întregi luminându-se când muzicienii încep să cânte. Este cu adevărat magic.",
+        "name": "Maria Ionescu",
+        "role": "Director, Casa de Bătrâni 'Sf. Andrei'"
+      },
+      "testimonial2": {
+        "quote": "Muzicoterapia a devenit o parte integrantă a programului nostru de reabilitare. Concertele We Are Classic oferă pacienților noștri momente de frumusețe și normalitate în timpul perioadelor dificile.",
+        "name": "Dr. Alexandru Popescu",
+        "role": "Șef Secție Recuperare, Spitalul Clinic Municipal"
+      }
+    },
+    "finalCta": {
+      "title": "Adu Muzica în Comunitatea Ta",
+      "description": "Dacă reprezinți un cămin de bătrâni, spital sau centru social și ai dori să găzduiești unul dintre concertele noastre, ne-ar plăcea să auzim de la tine. Toate spectacolele sunt oferite gratuit.",
+      "button": "Solicită un Concert"
+    }
   }
 }
