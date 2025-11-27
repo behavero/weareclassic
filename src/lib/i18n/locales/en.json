@@ -40,11 +40,17 @@
     }
   },
   "concerts": {
+    "meta": {
+      "title": "Concerts - We Are Classic",
+      "description": "Explore our complete concert series featuring world-class classical musicians and chamber music performances in Cluj-Napoca."
+    },
     "future": {
       "title": "We Are Classics Series",
       "subtitle": "Our flagship project bringing some of the most important contemporary artists to Cluj's stages. Exceptional chamber music concerts promoting artistic excellence in a refined and professional setting at Amfiteatrul Cornel Țăranu, Academia Națională de Muzică \"Gheorghe Dima\".",
       "featured": "Opening Concert",
       "bookNow": "Book Tickets",
+      "bookButton": "Book Tickets",
+      "artistsLabel": "ARTISTS",
       "viewAll": "View Full Concert Schedule",
       "concert1": {
         "title": "Opening Concert - Răzvan Suma & Oana Csíky",
@@ -77,7 +83,7 @@
         "price": "Contact for tickets"
       }
     },
-    "previous": {
+    "past": {
       "title": "Previous Concerts",
       "subtitle": "Celebrating our musical journey through memorable performances",
       "viewGallery": "View Full Gallery",
@@ -130,6 +136,23 @@
         "description": "Every year, we bring the transformative power of classical music to over 1,800 children and elderly individuals in underserved communities, creating moments of joy, inspiration, and connection."
       },
       "requestConcert": "Request a Concert for Your Venue"
+    },
+    "catalog": {
+      "hero": {
+        "badge": "We Are Classics Concert Series",
+        "headline": "Our Concerts",
+        "subtitle": "Experience world-class chamber music performances featuring exceptional Romanian and international artists in the heart of Cluj-Napoca."
+      },
+      "about": {
+        "title": "We Are Classics Series",
+        "description": "Our flagship project bringing some of the most important contemporary artists to Cluj's stages. Exceptional chamber music concerts promoting artistic excellence in a refined and professional setting at Amfiteatrul Cornel Țăranu, Academia Națională de Muzică 'Gheorghe Dima'."
+      },
+      "finalCta": {
+        "title": "Join Us for Upcoming Concerts",
+        "subtitle": "Experience the beauty of classical music performed by exceptional artists. Book your tickets now or get in touch for group bookings and special events.",
+        "cta1": "Contact Us",
+        "cta2": "View Upcoming Concerts"
+      }
     }
   },
   "partners": {

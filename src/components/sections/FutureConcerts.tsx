@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Button } from '../ui/Button';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
@@ -186,7 +187,7 @@ export const FutureConcerts: React.FC = () => {
 
         {/* View All Link - Left Aligned */}
         <div className="content-left mt-16">
-          <a
+          <Link
             href="/concerts"
             className="inline-flex items-center gap-3 text-blue hover:text-blue-dark font-sans font-medium text-lg transition-colors"
           >
@@ -194,7 +195,7 @@ export const FutureConcerts: React.FC = () => {
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
