@@ -294,7 +294,7 @@ export const CommunityOutreach: React.FC = () => {
                 key={num}
                 className="bg-beige rounded-2xl p-10"
               >
-                <div className="text-orange text-5xl mb-6">"</div>
+                <div className="text-orange text-5xl mb-6">&ldquo;</div>
                 <p className="font-sans text-lg text-black/80 leading-relaxed mb-6 italic">
                   {t(`community.testimonials.testimonial${num}.quote`)}
                 </p>
