@@ -137,7 +137,27 @@ export const ConcertsCatalog: React.FC = () => {
       }`}
     >
       {/* Hero Banner */}
-      <div className="relative bg-gradient-to-r from-primary-blue to-blue-800 text-white py-24 lg:py-32 overflow-hidden">
+      <div className="relative text-white py-24 lg:py-32 overflow-hidden">
+        {/* Fallback gradient background (only shows if video fails to load) */}
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-blue to-blue-800 -z-10" />
+
+        {/* Full-Width Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/hero/video-poster.jpg"
+        >
+          <source src="/videos/hero-background.webm" type="video/webm" />
+          <source src="/videos/hero-background.mp4" type="video/mp4" />
+        </video>
+
+        {/* Semi-Transparent Overlay */}
+        <div className="absolute inset-0 bg-primary-blue/50" />
+
         <div className="container-custom text-center relative z-10">
           <span className="inline-block bg-orange text-white text-sm font-bold px-4 py-2 rounded-full mb-4">
             {t('concerts.catalog.hero.badge')}
@@ -149,8 +169,9 @@ export const ConcertsCatalog: React.FC = () => {
             {t('concerts.catalog.hero.subtitle')}
           </p>
         </div>
+
         {/* Decorative elements */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10">
+        <div className="absolute inset-0 flex items-center justify-center opacity-10 z-0">
           <div className="w-96 h-96 bg-white rounded-full mix-blend-overlay animate-pulse-slow" style={{ transform: 'translate(-50%, -50%)' }}></div>
           <div className="w-72 h-72 bg-white rounded-full mix-blend-overlay animate-pulse-slow delay-200" style={{ transform: 'translate(50%, 50%)' }}></div>
         </div>
