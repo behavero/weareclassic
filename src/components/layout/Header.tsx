@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
 
   const navItems = [
     { label: t('header.nav.concerts'), href: '#concerts' },
-    { label: t('header.nav.team'), href: '/team' },
+    { label: t('header.nav.community'), href: '#community-concerts' },
     { label: t('header.nav.education'), href: '/education' },
     { label: t('header.nav.partners'), href: '#partners' },
   ];
