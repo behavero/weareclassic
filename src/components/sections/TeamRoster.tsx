@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface TeamMember {
   id: string;
@@ -144,12 +145,12 @@ export const TeamRoster: React.FC = () => {
             <p className="font-sans text-lg text-black/70 mb-8">
               {t('team.partners.ctaDescription')}
             </p>
-            <a
+            <Link
               href="/contact"
               className="inline-block px-10 py-5 bg-blue text-white font-sans font-semibold text-lg rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
             >
               {t('team.partners.ctaButton')}
-            </a>
+            </Link>
           </div>
         </div>
       </section>

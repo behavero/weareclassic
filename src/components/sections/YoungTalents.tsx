@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Artist {
   id: string;
@@ -131,12 +132,12 @@ export const YoungTalents: React.FC = () => {
           <p className="font-sans text-lg text-black/70 mb-8">
             {t('youngTalents.cta.description')}
           </p>
-          <a
+          <Link
             href="/contact"
             className="inline-block px-8 py-4 bg-orange text-white font-sans font-semibold rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
           >
             {t('youngTalents.cta.button')}
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface TeachingMethod {
   id: string;
@@ -75,12 +76,12 @@ export const EducationProgram: React.FC = () => {
             <p className="font-sans text-2xl lg:text-3xl leading-relaxed mb-12">
               {t('education.hero.subtitle')}
             </p>
-            <a
+            <Link
               href="/contact"
               className="inline-block px-10 py-5 bg-white text-orange font-sans font-bold text-lg rounded-md hover:scale-105 hover:shadow-2xl transition-all duration-300"
             >
               {t('education.hero.cta')}
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -178,12 +179,12 @@ export const EducationProgram: React.FC = () => {
                 ))}
               </div>
 
-              <a
+              <Link
                 href="/contact"
                 className="inline-block px-8 py-4 bg-orange text-white font-sans font-semibold rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
               >
                 {t('education.kindergarten.cta')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -232,12 +233,12 @@ export const EducationProgram: React.FC = () => {
               {t('education.finalCta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a
+              <Link
                 href="/contact"
                 className="inline-block px-10 py-5 bg-orange text-white font-sans font-semibold text-lg rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
               >
                 {t('education.finalCta.primaryButton')}
-              </a>
+              </Link>
               <a
                 href="#"
                 className="inline-block px-10 py-5 bg-white border-2 border-blue text-blue font-sans font-semibold text-lg rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
