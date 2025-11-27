@@ -141,9 +141,9 @@ export const ConcertsCatalog: React.FC = () => {
       }`}
     >
       {/* Hero Banner */}
-      <div className="relative text-white py-24 lg:py-32 overflow-hidden">
+      <div className="relative min-h-screen flex items-center overflow-hidden">
         {/* Fallback gradient background (only shows if video fails to load) */}
-        <div className="absolute inset-0 bg-gradient-to-r from-primary-blue to-blue-800 -z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black via-blue-dark to-black -z-10" />
 
         {/* Full-Width Video Background */}
         <video
@@ -159,25 +159,22 @@ export const ConcertsCatalog: React.FC = () => {
           <source src="/videos/hero-background.mp4" type="video/mp4" />
         </video>
 
-        {/* Semi-Transparent Overlay */}
-        <div className="absolute inset-0 bg-primary-blue/50" />
+        {/* Light Semi-Transparent Overlay - Lets video show through */}
+        <div className="absolute inset-0 bg-black/35" />
 
-        <div className="container-custom text-center relative z-10">
-          <span className="inline-block bg-orange text-white text-sm font-bold px-4 py-2 rounded-full mb-4">
-            {t('concerts.catalog.hero.badge')}
-          </span>
-          <h1 className="font-serif text-5xl lg:text-7xl font-bold mb-6">
-            {t('concerts.catalog.hero.headline')}
-          </h1>
-          <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto">
-            {t('concerts.catalog.hero.subtitle')}
-          </p>
-        </div>
-
-        {/* Decorative elements */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10 z-0">
-          <div className="w-96 h-96 bg-white rounded-full mix-blend-overlay animate-pulse-slow" style={{ transform: 'translate(-50%, -50%)' }}></div>
-          <div className="w-72 h-72 bg-white rounded-full mix-blend-overlay animate-pulse-slow delay-200" style={{ transform: 'translate(50%, 50%)' }}></div>
+        {/* Left-Aligned Content Container */}
+        <div className="relative z-10 container-custom w-full py-32 lg:py-40">
+          <div className="max-w-4xl content-left">
+            <span className="inline-block bg-orange text-white text-sm font-bold px-4 py-2 rounded-full mb-4">
+              {t('concerts.catalog.hero.badge')}
+            </span>
+            <h1 className="font-headline text-5xl sm:text-6xl lg:text-7xl text-white font-semibold leading-tight mb-8">
+              {t('concerts.catalog.hero.headline')}
+            </h1>
+            <p className="font-sans text-lg lg:text-xl text-white/90 leading-relaxed mb-10 max-w-2xl">
+              {t('concerts.catalog.hero.subtitle')}
+            </p>
+          </div>
         </div>
       </div>
 
