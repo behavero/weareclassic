@@ -22,36 +22,36 @@ export const PreviousConcerts: React.FC = () => {
   const pastConcerts: PastConcert[] = [
     {
       id: '1',
-      title: t('concerts.previous.concert1.title'),
-      date: t('concerts.previous.concert1.date'),
-      venue: t('concerts.previous.concert1.venue'),
-      location: t('concerts.previous.concert1.location'),
+      title: t('concerts.past.concert1.title'),
+      date: t('concerts.past.concert1.date'),
+      venue: t('concerts.past.concert1.venue'),
+      location: t('concerts.past.concert1.location'),
       image: '/images/gallery/IMG_2137.jpeg',
     },
     {
       id: '2',
-      title: t('concerts.previous.concert2.title'),
-      date: t('concerts.previous.concert2.date'),
-      venue: t('concerts.previous.concert2.venue'),
-      location: t('concerts.previous.concert2.location'),
+      title: t('concerts.past.concert2.title'),
+      date: t('concerts.past.concert2.date'),
+      venue: t('concerts.past.concert2.venue'),
+      location: t('concerts.past.concert2.location'),
       image: '/images/gallery/incoming pictures.jpg',
       attendees: 350,
     },
     {
       id: '3',
-      title: t('concerts.previous.concert3.title'),
-      date: t('concerts.previous.concert3.date'),
-      venue: t('concerts.previous.concert3.venue'),
-      location: t('concerts.previous.concert3.location'),
+      title: t('concerts.past.concert3.title'),
+      date: t('concerts.past.concert3.date'),
+      venue: t('concerts.past.concert3.venue'),
+      location: t('concerts.past.concert3.location'),
       image: '/images/gallery/incoming pictures.jpg',
       attendees: 400,
     },
     {
       id: '4',
-      title: t('concerts.previous.concert4.title'),
-      date: t('concerts.previous.concert4.date'),
-      venue: t('concerts.previous.concert4.venue'),
-      location: t('concerts.previous.concert4.location'),
+      title: t('concerts.past.concert4.title'),
+      date: t('concerts.past.concert4.date'),
+      venue: t('concerts.past.concert4.venue'),
+      location: t('concerts.past.concert4.location'),
       image: '/images/gallery/incoming pictures.jpg',
       videoUrl: '/videos/concert-4-highlights.mp4',
       attendees: 600,
@@ -70,10 +70,10 @@ export const PreviousConcerts: React.FC = () => {
         {/* Left-Aligned Section Header */}
         <div className="content-left mb-20 lg:mb-28">
           <h2 className="section-title">
-            {t('concerts.previous.title')}
+            {t('concerts.past.title')}
           </h2>
           <p className="section-subtitle">
-            {t('concerts.previous.subtitle')}
+            {t('concerts.past.subtitle')}
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export const PreviousConcerts: React.FC = () => {
                 {/* Attendees Badge */}
                 {concert.attendees && (
                   <div className="absolute bottom-3 right-3 bg-orange text-white px-3 py-1 rounded-md text-sm font-semibold">
-                    {concert.attendees}+ {t('concerts.previous.attendees')}
+                    {concert.attendees}+ {t('concerts.past.attendees')}
                   </div>
                 )}
               </div>
@@ -153,7 +153,7 @@ export const PreviousConcerts: React.FC = () => {
             href="/gallery"
             className="inline-flex items-center gap-3 text-blue hover:text-blue-dark font-sans font-medium text-lg transition-colors"
           >
-            {t('concerts.previous.viewGallery')}
+            {t('concerts.past.viewGallery')}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
