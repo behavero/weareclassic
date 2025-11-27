@@ -11,6 +11,7 @@ export const Footer: React.FC = () => {
     { label: t('header.nav.concerts'), href: '#concerts' },
     { label: t('header.nav.community'), href: '#community-concerts' },
     { label: t('header.nav.partners'), href: '#partners' },
+    { label: t('header.nav.team'), href: '/team' },
   ];
 
   const socialLinks = [
