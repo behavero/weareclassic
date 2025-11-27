@@ -169,7 +169,7 @@ export const ConcertsCatalog: React.FC = () => {
       </div>
 
       {/* Upcoming Concerts */}
-      <div className="section-spacing bg-beige">
+      <div id="upcoming" className="section-spacing bg-beige">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="section-title text-black mb-4">
