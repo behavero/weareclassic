@@ -4,6 +4,8 @@
     "nav": {
       "mission": "Mission",
       "concerts": "Concerts",
+      "team": "Team",
+      "education": "Education",
       "community": "Community",
       "partners": "Partners"
     },
@@ -182,6 +184,139 @@
       "submit": "Send Message",
       "success": "Thank you for your message. We'll be in touch soon!",
       "error": "Failed to send message. Please try again."
+    }
+  },
+  "youngTalents": {
+    "title": "Young Talents Rising",
+    "subtitle": "We create platforms and opportunities for emerging artists to showcase their exceptional skills and build professional careers in classical music.",
+    "artists": {
+      "artist1": {
+        "name": "Ana Popescu",
+        "instrument": "Violin",
+        "bio": "A rising star in the Romanian classical scene, Ana combines technical precision with emotional depth.",
+        "achievement1": "1st Prize - Youth Competition 2024",
+        "achievement2": "National Philharmonic Soloist"
+      },
+      "artist2": {
+        "name": "Mihai Ionescu",
+        "instrument": "Piano",
+        "bio": "Mihai's performances captivate audiences with their clarity and profound musical interpretation.",
+        "achievement1": "Finalist - International Piano Competition",
+        "achievement2": "Scholarship Recipient"
+      },
+      "artist3": {
+        "name": "Elena Gheorghiu",
+        "instrument": "Cello",
+        "bio": "Elena brings warmth and expressiveness to every performance, earning acclaim across Europe.",
+        "achievement1": "Winner - Young Musicians Award",
+        "achievement2": "Chamber Music Specialist"
+      },
+      "artist4": {
+        "name": "Andrei Cristea",
+        "instrument": "Clarinet",
+        "bio": "A versatile musician exploring both classical and contemporary repertoire with passion.",
+        "achievement1": "Orchestra Principal Clarinet",
+        "achievement2": "Featured Soloist 2025"
+      }
+    },
+    "cta": {
+      "description": "Are you a young talent looking for opportunities to perform and grow?",
+      "button": "Apply to Join Our Platform"
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Meet Our Team",
+      "subtitle": "Dedicated professionals and passionate partners united in our mission to elevate classical music across Romania."
+    },
+    "governance": {
+      "title": "Leadership",
+      "description": "Our governance team brings together expertise in arts management, community engagement, and strategic vision.",
+      "president": "President",
+      "vicePresident": "Vice President",
+      "secretary": "Secretary"
+    },
+    "partners": {
+      "title": "Our Partners & Community",
+      "description": "Together with our collaborators, we're building a vibrant ecosystem that supports classical music and creates lasting cultural impact.",
+      "partner1": "Academia Națională de Muzică 'Gheorghe Dima'",
+      "partner2": "Cluj-Napoca Philharmonic Orchestra",
+      "partner3": "Cultural Foundation Cluj",
+      "partner4": "Corporate Partner Network",
+      "partner5": "Arts & Culture Foundation",
+      "partner6": "Media Partner Alliance",
+      "ctaDescription": "Join our growing network of partners committed to cultural excellence.",
+      "ctaButton": "Become a Partner"
+    }
+  },
+  "education": {
+    "hero": {
+      "badge": "We Are Classics Education",
+      "title": "Ateliers for Kids in Kindergartens",
+      "subtitle": "Teaching classical music in a very nice and simple manner",
+      "cta": "Bring Our Program to Your Kindergarten"
+    },
+    "mission": {
+      "title": "Our Educational Mission",
+      "description": "We believe every child deserves to experience the joy and wonder of classical music. Our specially designed ateliers introduce young minds to the world of orchestral instruments, classical composers, and the magic of live performance through creative, age-appropriate workshops that inspire curiosity and foster a lifelong love of music."
+    },
+    "methods": {
+      "title": "How We Teach",
+      "subtitle": "Our approach combines storytelling, hands-on exploration, and interactive performance to make classical music accessible and exciting for children.",
+      "method1": {
+        "title": "Interactive Storytelling",
+        "description": "Musical tales that bring composers and instruments to life through engaging narratives children can relate to."
+      },
+      "method2": {
+        "title": "Live Demonstrations",
+        "description": "Professional musicians perform and demonstrate instruments, allowing children to see, hear, and understand up close."
+      },
+      "method3": {
+        "title": "Creative Activities",
+        "description": "Drawing, movement, and play-based activities that reinforce musical concepts in fun, memorable ways."
+      },
+      "method4": {
+        "title": "Instrument Discovery",
+        "description": "Hands-on opportunities to touch, explore, and even try playing real orchestral instruments."
+      },
+      "method5": {
+        "title": "Age-Appropriate Content",
+        "description": "Workshops tailored to different age groups, ensuring content is engaging and developmentally appropriate."
+      },
+      "method6": {
+        "title": "Joyful Learning",
+        "description": "Above all, we prioritize creating positive, joyful experiences that inspire a love of music."
+      }
+    },
+    "kindergarten": {
+      "badge": "Our Program",
+      "title": "Workshops Designed for Wonder",
+      "description": "Each atelier is a 45-minute journey into the world of classical music, designed specifically for kindergarten-aged children. Our professional musicians create an intimate, welcoming environment where curiosity is encouraged and every question is celebrated.",
+      "feature1": "45-minute interactive sessions perfect for young attention spans",
+      "feature2": "Professional musicians who love working with children",
+      "feature3": "Flexible scheduling to fit your kindergarten's routine",
+      "feature4": "All materials and instruments provided",
+      "cta": "Request a Workshop"
+    },
+    "impact": {
+      "stat1": {
+        "number": "1,800+",
+        "label": "Children Reached"
+      },
+      "stat2": {
+        "number": "50+",
+        "label": "Kindergartens"
+      },
+      "stat3": {
+        "number": "120+",
+        "label": "Workshops"
+      }
+    },
+    "finalCta": {
+      "title": "Bring Music to Your Kindergarten",
+      "description": "Give the children in your care an unforgettable introduction to the world of classical music. Our workshops are completely free for participating kindergartens.",
+      "primaryButton": "Schedule a Workshop",
+      "secondaryButton": "Download Program Details"
     }
   }
 }

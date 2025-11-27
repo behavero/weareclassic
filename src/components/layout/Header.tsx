@@ -22,6 +22,8 @@ export const Header: React.FC = () => {
   const navItems = [
     { label: t('header.nav.mission'), href: '#mission' },
     { label: t('header.nav.concerts'), href: '#concerts' },
+    { label: t('header.nav.team'), href: '/team' },
+    { label: t('header.nav.education'), href: '/education' },
     { label: t('header.nav.partners'), href: '#partners' },
   ];
 
@@ -56,17 +58,31 @@ export const Header: React.FC = () => {
 
           {/* Desktop Navigation - Minimal */}
           <nav className="hidden lg:flex items-center gap-12">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className={`font-sans text-base font-normal transition-colors duration-200 hover:text-blue ${
-                  isScrolled ? 'text-black/80' : 'text-white/90'
-                }`}
-              >
-                {item.label}
-              </a>
-            ))}
+            {navItems.map((item) => {
+              const isInternalLink = item.href.startsWith('/');
+              
+              return isInternalLink ? (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`font-sans text-base font-normal transition-colors duration-200 hover:text-blue ${
+                    isScrolled ? 'text-black/80' : 'text-white/90'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className={`font-sans text-base font-normal transition-colors duration-200 hover:text-blue ${
+                    isScrolled ? 'text-black/80' : 'text-white/90'
+                  }`}
+                >
+                  {item.label}
+                </a>
+              );
+            })}
           </nav>
 
           {/* Desktop Actions */}
@@ -114,16 +130,29 @@ export const Header: React.FC = () => {
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-white border-t border-black/5">
             <nav className="flex flex-col py-6">
-              {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="px-6 py-4 font-sans text-base font-normal text-black hover:bg-beige hover:text-blue transition-colors"
-                >
-                  {item.label}
-                </a>
-              ))}
+              {navItems.map((item) => {
+                const isInternalLink = item.href.startsWith('/');
+                
+                return isInternalLink ? (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="px-6 py-4 font-sans text-base font-normal text-black hover:bg-beige hover:text-blue transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="px-6 py-4 font-sans text-base font-normal text-black hover:bg-beige hover:text-blue transition-colors"
+                  >
+                    {item.label}
+                  </a>
+                );
+              })}
               <div className="border-t border-black/5 mt-4 pt-6 px-6 flex flex-col gap-4">
                 <LanguageSwitcher isScrolled={true} />
                 <Link href="/contact">

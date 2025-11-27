@@ -4,6 +4,8 @@
     "nav": {
       "mission": "Misiune",
       "concerts": "Concerte",
+      "team": "Echipă",
+      "education": "Educație",
       "community": "Comunitate",
       "partners": "Parteneri"
     },
@@ -182,6 +184,139 @@
       "submit": "Trimite Mesaj",
       "success": "Mulțumim pentru mesaj. Te vom contacta în curând!",
       "error": "Trimiterea mesajului a eșuat. Te rugăm să încerci din nou."
+    }
+  },
+  "youngTalents": {
+    "title": "Talentele Tinere în Ascensiune",
+    "subtitle": "Creăm platforme și oportunități pentru artiștii emergenți să-și prezinte abilitățile excepționale și să construiască cariere profesionale în muzica clasică.",
+    "artists": {
+      "artist1": {
+        "name": "Ana Popescu",
+        "instrument": "Vioară",
+        "bio": "O stea în ascensiune pe scena clasică românească, Ana combină precizia tehnică cu profunzimea emoțională.",
+        "achievement1": "Premiul I - Concurs Tineret 2024",
+        "achievement2": "Solistă Filarmonică Națională"
+      },
+      "artist2": {
+        "name": "Mihai Ionescu",
+        "instrument": "Pian",
+        "bio": "Interpretările lui Mihai captivează publicul prin claritate și profundă interpretare muzicală.",
+        "achievement1": "Finalist - Concurs Internațional de Pian",
+        "achievement2": "Beneficiar Bursă"
+      },
+      "artist3": {
+        "name": "Elena Gheorghiu",
+        "instrument": "Violoncel",
+        "bio": "Elena aduce căldură și expresivitate fiecărei interpretări, câștigând recunoaștere în Europa.",
+        "achievement1": "Câștigătoare - Premiul Tinerii Muzicieni",
+        "achievement2": "Specialist Muzică de Cameră"
+      },
+      "artist4": {
+        "name": "Andrei Cristea",
+        "instrument": "Clarinet",
+        "bio": "Un muzician versatil explorând atât repertoriul clasic, cât și cel contemporan cu pasiune.",
+        "achievement1": "Clarinet Principal Orchestră",
+        "achievement2": "Solist Invitat 2025"
+      }
+    },
+    "cta": {
+      "description": "Ești un tânăr talent în căutarea de oportunități de a performa și a crește?",
+      "button": "Aplică pentru Platforma Noastră"
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Echipa Noastră",
+      "subtitle": "Profesioniști dedicați și parteneri pasionați uniți în misiunea noastră de a eleva muzica clasică în România."
+    },
+    "governance": {
+      "title": "Conducere",
+      "description": "Echipa noastră de conducere reunește expertiză în management artistic, implicare comunitară și viziune strategică.",
+      "president": "Președinte",
+      "vicePresident": "Vice Președinte",
+      "secretary": "Secretar"
+    },
+    "partners": {
+      "title": "Partenerii & Comunitatea Noastră",
+      "description": "Împreună cu colaboratorii noștri, construim un ecosistem vibrant care susține muzica clasică și creează impact cultural de durată.",
+      "partner1": "Academia Națională de Muzică 'Gheorghe Dima'",
+      "partner2": "Orchestra Filarmonică Cluj-Napoca",
+      "partner3": "Fundația Culturală Cluj",
+      "partner4": "Rețeaua Partenerilor Corporativi",
+      "partner5": "Fundația Arte & Cultură",
+      "partner6": "Alianța Parteneri Media",
+      "ctaDescription": "Alătură-te rețelei noastre în creștere de parteneri dedicați excelenței culturale.",
+      "ctaButton": "Devino Partener"
+    }
+  },
+  "education": {
+    "hero": {
+      "badge": "We Are Classics Educație",
+      "title": "Ateliere pentru Copii în Grădinițe",
+      "subtitle": "Predăm muzica clasică într-un mod plăcut și simplu",
+      "cta": "Adu Programul Nostru în Grădinița Ta"
+    },
+    "mission": {
+      "title": "Misiunea Noastră Educațională",
+      "description": "Credem că fiecare copil merită să experimenteze bucuria și minunea muzicii clasice. Atelierele noastre special concepute introduc mințile tinere în lumea instrumentelor orchestrale, compozitorilor clasici și magia spectacolului live prin ateliere creative, adaptate vârstei, care inspiră curiozitatea și cultivă dragostea pentru muzică."
+    },
+    "methods": {
+      "title": "Cum Predăm",
+      "subtitle": "Abordarea noastră combină povestirea, explorarea practică și interpretarea interactivă pentru a face muzica clasică accesibilă și captivantă pentru copii.",
+      "method1": {
+        "title": "Povestire Interactivă",
+        "description": "Povești muzicale care dau viață compozitorilor și instrumentelor prin narațiuni captivante cu care copiii se pot relaționa."
+      },
+      "method2": {
+        "title": "Demonstrații Live",
+        "description": "Muzicieni profesioniști interpretează și demonstrează instrumente, permițând copiilor să vadă, să audă și să înțeleagă de aproape."
+      },
+      "method3": {
+        "title": "Activități Creative",
+        "description": "Desen, mișcare și activități bazate pe joc care consolidează conceptele muzicale în moduri distractive și memorabile."
+      },
+      "method4": {
+        "title": "Descoperirea Instrumentelor",
+        "description": "Oportunități practice de a atinge, explora și chiar încerca să cânte instrumente orchestrale reale."
+      },
+      "method5": {
+        "title": "Conținut Adaptat Vârstei",
+        "description": "Ateliere personalizate pentru diferite grupe de vârstă, asigurând că conținutul este captivant și adecvat dezvoltării."
+      },
+      "method6": {
+        "title": "Învățare Bucuroasă",
+        "description": "Mai presus de toate, prioritizăm crearea de experiențe pozitive, bucuroase care inspiră dragostea pentru muzică."
+      }
+    },
+    "kindergarten": {
+      "badge": "Programul Nostru",
+      "title": "Ateliere Concepute pentru Uimire",
+      "description": "Fiecare atelier este o călătorie de 45 de minute în lumea muzicii clasice, concepută special pentru copiii de vârstă preșcolară. Muzicienii noștri profesioniști creează un mediu intim, primitor unde curiozitatea este încurajată și fiecare întrebare este celebrată.",
+      "feature1": "Sesiuni interactive de 45 de minute perfecte pentru capacitatea de atenție a copiilor",
+      "feature2": "Muzicieni profesioniști care adoră să lucreze cu copiii",
+      "feature3": "Program flexibil pentru a se potrivi rutinei grădiniței tale",
+      "feature4": "Toate materialele și instrumentele furnizate",
+      "cta": "Solicită un Atelier"
+    },
+    "impact": {
+      "stat1": {
+        "number": "1,800+",
+        "label": "Copii Ajunși"
+      },
+      "stat2": {
+        "number": "50+",
+        "label": "Grădinițe"
+      },
+      "stat3": {
+        "number": "120+",
+        "label": "Ateliere"
+      }
+    },
+    "finalCta": {
+      "title": "Adu Muzica în Grădinița Ta",
+      "description": "Oferă copiilor din grija ta o introducere de neuitat în lumea muzicii clasice. Atelierele noastre sunt complet gratuite pentru grădinițele participante.",
+      "primaryButton": "Programează un Atelier",
+      "secondaryButton": "Descarcă Detalii Program"
     }
   }
 }
