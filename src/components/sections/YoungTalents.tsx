@@ -68,7 +68,7 @@ export const YoungTalents: React.FC = () => {
         {/* Section Header with Primary Blue Background */}
         <div className="bg-blue text-white rounded-2xl px-12 py-16 mb-20">
           <div className="max-w-4xl">
-            <h2 className="font-display text-5xl lg:text-6xl font-bold mb-6">
+            <h2 className="font-display text-5xl lg:text-6xl font-bold text-white mb-6">
               {t('youngTalents.title')}
             </h2>
             <p className="font-sans text-xl lg:text-2xl leading-relaxed text-white/90">
