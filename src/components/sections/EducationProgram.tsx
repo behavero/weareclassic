@@ -54,34 +54,40 @@ export const EducationProgram: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Banner with Secondary Orange */}
-      <section className="relative pt-40 pb-32 bg-gradient-to-br from-orange via-orange/90 to-orange/80 overflow-hidden">
-        {/* Decorative Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-32 h-32 rounded-full bg-white" />
-          <div className="absolute bottom-20 right-20 w-48 h-48 rounded-full bg-white" />
-          <div className="absolute top-1/2 left-1/3 w-24 h-24 rounded-full bg-white" />
-        </div>
+      {/* Hero Section */}
+      <section className="relative min-h-screen flex items-center overflow-hidden">
+        {/* Fallback gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black via-blue-dark to-black -z-10" />
 
-        <div className="container-custom relative z-10">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <div className="inline-block px-6 py-2 bg-white/20 rounded-full mb-6 backdrop-blur-sm">
-              <p className="font-sans text-sm font-semibold uppercase tracking-wider">
-                {t('education.hero.badge')}
-              </p>
-            </div>
-            <h1 className="font-display text-6xl lg:text-7xl font-bold mb-8">
+        {/* Full-Width Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/hero/video-poster.jpg"
+        >
+          <source src="/videos/hero-background.webm" type="video/webm" />
+          <source src="/videos/hero-background.mp4" type="video/mp4" />
+        </video>
+
+        {/* Light Semi-Transparent Overlay */}
+        <div className="absolute inset-0 bg-black/35" />
+
+        {/* Left-Aligned Content Container */}
+        <div className="relative z-10 container-custom w-full py-32 lg:py-40">
+          <div className="max-w-4xl content-left">
+            <span className="inline-block bg-orange text-white text-sm font-bold px-4 py-2 rounded-full mb-4">
+              {t('education.hero.badge')}
+            </span>
+            <h1 className="font-headline text-5xl sm:text-6xl lg:text-7xl text-white font-semibold leading-tight mb-8">
               {t('education.hero.title')}
             </h1>
-            <p className="font-sans text-2xl lg:text-3xl leading-relaxed mb-12">
+            <p className="font-sans text-lg lg:text-xl text-white/90 leading-relaxed mb-10 max-w-2xl">
               {t('education.hero.subtitle')}
             </p>
-            <Link
-              href="/contact"
-              className="inline-block px-10 py-5 bg-white text-orange font-sans font-bold text-lg rounded-md hover:scale-105 hover:shadow-2xl transition-all duration-300"
-            >
-              {t('education.hero.cta')}
-            </Link>
           </div>
         </div>
       </section>
