@@ -238,19 +238,13 @@ export const EducationProgram: React.FC = () => {
             <p className="font-sans text-xl text-black/70 leading-relaxed mb-12">
               {t('education.finalCta.description')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <div className="flex justify-center">
               <Link
                 href="/contact"
                 className="inline-block px-10 py-5 bg-orange text-white font-sans font-semibold text-lg rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
               >
                 {t('education.finalCta.primaryButton')}
               </Link>
-              <a
-                href="#"
-                className="inline-block px-10 py-5 bg-white border-2 border-blue text-blue font-sans font-semibold text-lg rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
-              >
-                {t('education.finalCta.secondaryButton')}
-              </a>
             </div>
           </div>
         </div>
