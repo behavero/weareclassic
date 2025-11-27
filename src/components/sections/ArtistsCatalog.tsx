@@ -201,7 +201,7 @@ export const ArtistsCatalog: React.FC = () => {
       </div>
 
       {/* Join Our Platform CTA */}
-      <div className="section-spacing bg-beige text-center">
+      <div className="section-spacing bg-white text-center">
         <div className="container-custom max-w-3xl mx-auto">
           <h2 className="section-title text-black mb-6">
             {t('artists.joinCta.title')}
