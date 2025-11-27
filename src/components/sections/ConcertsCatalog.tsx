@@ -18,6 +18,7 @@ interface Concert {
   artists: string;
   description: string;
   type: 'upcoming' | 'past';
+  attendees?: number;
 }
 
 export const ConcertsCatalog: React.FC = () => {
@@ -77,7 +78,7 @@ export const ConcertsCatalog: React.FC = () => {
       time: '',
       venue: t('concerts.past.concert1.venue'),
       location: t('concerts.past.concert1.location'),
-      image: '/images/gallery/incoming pictures.jpg',
+      image: '/images/gallery/IMG_2137.jpeg',
       bookingUrl: '',
       price: '',
       artists: '',
@@ -97,6 +98,7 @@ export const ConcertsCatalog: React.FC = () => {
       artists: '',
       description: '',
       type: 'past',
+      attendees: 350,
     },
     {
       id: 'p3',
@@ -111,6 +113,7 @@ export const ConcertsCatalog: React.FC = () => {
       artists: '',
       description: '',
       type: 'past',
+      attendees: 400,
     },
     {
       id: 'p4',
@@ -125,6 +128,7 @@ export const ConcertsCatalog: React.FC = () => {
       artists: '',
       description: '',
       type: 'past',
+      attendees: 600,
     },
   ];
 
@@ -299,6 +303,11 @@ export const ConcertsCatalog: React.FC = () => {
                     fill
                     className="object-cover"
                   />
+                  {concert.attendees && (
+                    <div className="absolute bottom-3 right-3 bg-orange text-white px-3 py-1 rounded-md text-sm font-semibold">
+                      {concert.attendees}+ {t('concerts.past.attendees')}
+                    </div>
+                  )}
                 </div>
                 <div className="p-5">
                   <h3 className="font-serif text-xl text-black font-semibold mb-3">
