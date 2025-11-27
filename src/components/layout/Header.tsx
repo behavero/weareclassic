@@ -24,7 +24,6 @@ export const Header: React.FC = () => {
     { label: t('header.nav.artists'), href: '/artists' },
     { label: t('header.nav.community'), href: '/community' },
     { label: t('header.nav.education'), href: '/education' },
-    { label: t('header.nav.partners'), href: '#partners' },
   ];
 
   return (
