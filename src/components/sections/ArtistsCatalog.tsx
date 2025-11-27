@@ -87,22 +87,40 @@ export const ArtistsCatalog: React.FC = () => {
       }`}
     >
       {/* Hero Banner */}
-      <div className="relative bg-gradient-to-r from-primary-blue to-blue-800 text-white py-24 lg:py-32 overflow-hidden">
-        <div className="container-custom text-center relative z-10">
-          <span className="inline-block bg-orange text-white text-sm font-bold px-4 py-2 rounded-full mb-4">
-            {t('artists.hero.badge')}
-          </span>
-          <h1 className="font-serif text-5xl lg:text-7xl font-bold mb-6">
-            {t('artists.hero.headline')}
-          </h1>
-          <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto">
-            {t('artists.hero.subtitle')}
-          </p>
-        </div>
-        {/* Decorative elements */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10">
-          <div className="w-96 h-96 bg-white rounded-full mix-blend-overlay animate-pulse-slow" style={{ transform: 'translate(-50%, -50%)' }}></div>
-          <div className="w-72 h-72 bg-white rounded-full mix-blend-overlay animate-pulse-slow delay-200" style={{ transform: 'translate(50%, 50%)' }}></div>
+      <div className="relative min-h-screen flex items-center overflow-hidden">
+        {/* Fallback gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black via-blue-dark to-black -z-10" />
+
+        {/* Full-Width Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/hero/video-poster.jpg"
+        >
+          <source src="/videos/hero-background.webm" type="video/webm" />
+          <source src="/videos/hero-background.mp4" type="video/mp4" />
+        </video>
+
+        {/* Light Semi-Transparent Overlay */}
+        <div className="absolute inset-0 bg-black/35" />
+
+        {/* Left-Aligned Content Container */}
+        <div className="relative z-10 container-custom w-full py-32 lg:py-40">
+          <div className="max-w-4xl content-left">
+            <span className="inline-block bg-orange text-white text-sm font-bold px-4 py-2 rounded-full mb-4">
+              {t('artists.hero.badge')}
+            </span>
+            <h1 className="font-headline text-5xl sm:text-6xl lg:text-7xl text-white font-semibold leading-tight mb-8">
+              {t('artists.hero.headline')}
+            </h1>
+            <p className="font-sans text-lg lg:text-xl text-white/90 leading-relaxed mb-10 max-w-2xl">
+              {t('artists.hero.subtitle')}
+            </p>
+          </div>
         </div>
       </div>
 
