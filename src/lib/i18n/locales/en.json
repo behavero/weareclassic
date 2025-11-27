@@ -7,6 +7,7 @@
       "team": "Team",
       "education": "Education",
       "community": "Community",
+      "artists": "Our Artists",
       "partners": "Partners"
     },
     "cta": "Contact Us",
@@ -221,7 +222,7 @@
     },
     "cta": {
       "description": "Are you a young talent looking for opportunities to perform and grow?",
-      "button": "Apply to Join Our Platform"
+      "button": "Discover Our Artists"
     }
   },
   "team": {
@@ -426,6 +427,73 @@
       "title": "Bring Music to Your Community",
       "description": "If you represent an elder care facility, hospital, or social center and would like to host one of our concerts, we'd love to hear from you. All performances are offered free of charge.",
       "button": "Request a Concert"
+    }
+  },
+  "artists": {
+    "meta": {
+      "title": "Our Artists - We Are Classic",
+      "description": "Discover the exceptional classical musicians who perform with We Are Classic. Meet our talented roster of established professionals and rising stars."
+    },
+    "hero": {
+      "badge": "We Are Classic Artists",
+      "headline": "Our Artists",
+      "subtitle": "Meet the exceptional musicians who bring classical music to life through We Are Classic performances."
+    },
+    "mission": {
+      "title": "Celebrating Excellence",
+      "description": "We Are Classic partners with the finest classical musicians in Romania and beyond. Our roster includes both established professionals with international careers and exceptional young talents ready to captivate audiences with their artistry."
+    },
+    "roster": {
+      "title": "Featured Artists",
+      "subtitle": "Discover the remarkable musicians who perform with We Are Classic",
+      "youngTalentBadge": "Rising Star",
+      "artist1": {
+        "name": "Ana Popescu",
+        "instrument": "Violin",
+        "bio": "A rising star in the Romanian classical scene, Ana combines technical precision with emotional depth in every performance.",
+        "achievement1": "1st Prize - Youth Competition 2024",
+        "achievement2": "National Philharmonic Soloist"
+      },
+      "artist2": {
+        "name": "Mihai Ionescu",
+        "instrument": "Piano",
+        "bio": "Known for his sensitive interpretations of Romantic repertoire, Mihai brings fresh perspectives to classical masterworks.",
+        "achievement1": "Enescu Competition Finalist",
+        "achievement2": "Royal Academy of Music Graduate"
+      },
+      "artist3": {
+        "name": "Elena Dumitrescu",
+        "instrument": "Cello",
+        "bio": "Elena's rich, warm tone and expressive phrasing have captivated audiences across Europe.",
+        "achievement1": "Munich Competition Winner",
+        "achievement2": "Vienna Philharmonic Guest Artist"
+      },
+      "artist4": {
+        "name": "Alexandru Petrescu",
+        "instrument": "Clarinet",
+        "bio": "A versatile musician comfortable in both chamber and orchestral settings, Alexandru's artistry transcends genre.",
+        "achievement1": "ARD Competition Prize Winner",
+        "achievement2": "Berlin Philharmonic Guest Principal"
+      },
+      "artist5": {
+        "name": "Răzvan Suma",
+        "instrument": "Cello",
+        "bio": "An internationally acclaimed cellist with a profound understanding of both Baroque and contemporary repertoire.",
+        "achievement1": "Tchaikovsky Competition Laureate",
+        "achievement2": "Regular Guest with London Symphony"
+      },
+      "artist6": {
+        "name": "Oana Csíky",
+        "instrument": "Piano",
+        "bio": "Celebrated for her crystalline touch and poetic interpretations, Oana is one of Romania's most sought-after pianists.",
+        "achievement1": "Leeds Piano Competition Finalist",
+        "achievement2": "Romanian Cultural Institute Ambassador"
+      }
+    },
+    "joinCta": {
+      "title": "Are You an Artist?",
+      "subtitle": "We Are Classic is always seeking exceptional musicians to collaborate with. If you're a talented classical artist interested in performing with us, we'd love to hear from you.",
+      "button": "Apply to Perform"
     }
   }
 }

@@ -133,7 +133,7 @@ export const YoungTalents: React.FC = () => {
             {t('youngTalents.cta.description')}
           </p>
           <Link
-            href="/contact"
+            href="/artists"
             className="inline-block px-8 py-4 bg-orange text-white font-sans font-semibold rounded-md hover:scale-105 hover:shadow-xl transition-all duration-300"
           >
             {t('youngTalents.cta.button')}

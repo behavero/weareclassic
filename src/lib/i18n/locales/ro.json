@@ -7,6 +7,7 @@
       "team": "Echipă",
       "education": "Educație",
       "community": "Comunitate",
+      "artists": "Artiștii Noștri",
       "partners": "Parteneri"
     },
     "cta": "Contactează-ne",
@@ -221,7 +222,7 @@
     },
     "cta": {
       "description": "Ești un tânăr talent în căutarea de oportunități de a performa și a crește?",
-      "button": "Aplică pentru Platforma Noastră"
+      "button": "Descoperă Artiștii Noștri"
     }
   },
   "team": {
@@ -426,6 +427,73 @@
       "title": "Adu Muzica în Comunitatea Ta",
       "description": "Dacă reprezinți un cămin de bătrâni, spital sau centru social și ai dori să găzduiești unul dintre concertele noastre, ne-ar plăcea să auzim de la tine. Toate spectacolele sunt oferite gratuit.",
       "button": "Solicită un Concert"
+    }
+  },
+  "artists": {
+    "meta": {
+      "title": "Artiștii Noștri - We Are Classic",
+      "description": "Descoperiți muzicienii clasici excepționali care se produc cu We Are Classic. Faceți cunoștință cu lista noastră de profesioniști consacrați și tinere stele în ascensiune."
+    },
+    "hero": {
+      "badge": "Artiști We Are Classic",
+      "headline": "Artiștii Noștri",
+      "subtitle": "Faceți cunoștință cu muzicienii excepționali care dau viață muzicii clasice prin spectacolele We Are Classic."
+    },
+    "mission": {
+      "title": "Celebrăm Excelența",
+      "description": "We Are Classic colaborează cu cei mai buni muzicieni clasici din România și nu numai. Lista noastră include atât profesioniști consacrați cu cariere internaționale, cât și tinere talente excepționale gata să captiveze publicul cu arta lor."
+    },
+    "roster": {
+      "title": "Artiști în Evidență",
+      "subtitle": "Descoperiți muzicienii remarcabili care se produc cu We Are Classic",
+      "youngTalentBadge": "Stea în Ascensiune",
+      "artist1": {
+        "name": "Ana Popescu",
+        "instrument": "Vioară",
+        "bio": "O stea în ascensiune pe scena clasică românească, Ana combină precizia tehnică cu profunzimea emoțională în fiecare interpretare.",
+        "achievement1": "Premiul I - Concursul Tineretului 2024",
+        "achievement2": "Solistă Filarmonica Națională"
+      },
+      "artist2": {
+        "name": "Mihai Ionescu",
+        "instrument": "Pian",
+        "bio": "Cunoscut pentru interpretările sale sensibile ale repertoriului romantic, Mihai aduce perspective noi operelor clasice.",
+        "achievement1": "Finalist Concursul Enescu",
+        "achievement2": "Absolvent Royal Academy of Music"
+      },
+      "artist3": {
+        "name": "Elena Dumitrescu",
+        "instrument": "Violoncel",
+        "bio": "Sonoritatea bogată și caldă a Elenei și frazarea sa expresivă au captivat publicul din toată Europa.",
+        "achievement1": "Câștigătoare Concursul München",
+        "achievement2": "Artist Invitat Filarmonica Vieneză"
+      },
+      "artist4": {
+        "name": "Alexandru Petrescu",
+        "instrument": "Clarinet",
+        "bio": "Un muzician versatil, confortabil atât în medii camerale cât și orchestrale, arta lui Alexandru transcende genurile.",
+        "achievement1": "Premiant Concursul ARD",
+        "achievement2": "Principal Invitat Filarmonica din Berlin"
+      },
+      "artist5": {
+        "name": "Răzvan Suma",
+        "instrument": "Violoncel",
+        "bio": "Un violoncelist aclamat internațional cu o înțelegere profundă atât a repertoriului baroc cât și contemporan.",
+        "achievement1": "Laureat Concursul Ceaikovski",
+        "achievement2": "Invitat Regulat cu London Symphony"
+      },
+      "artist6": {
+        "name": "Oana Csíky",
+        "instrument": "Pian",
+        "bio": "Celebrată pentru atingerea sa cristalină și interpretările poetice, Oana este una dintre cele mai solicitate pianiste din România.",
+        "achievement1": "Finalistă Concursul de Pian Leeds",
+        "achievement2": "Ambasador Institutul Cultural Român"
+      }
+    },
+    "joinCta": {
+      "title": "Ești Artist?",
+      "subtitle": "We Are Classic este mereu în căutare de muzicieni excepționali cu care să colaboreze. Dacă ești un artist clasic talentat interesat să te produci cu noi, ne-ar plăcea să auzim de la tine.",
+      "button": "Aplică pentru a Cânta"
     }
   }
 }
