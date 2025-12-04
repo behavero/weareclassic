@@ -31,7 +31,11 @@ export const PartnersSponsors: React.FC = () => {
       logo: '/images/sponsors/Annie-Klaus-logo.png',
       url: 'https://annieklaus.com/'
     },
-    { name: 'Partner 5', logo: '/images/sponsors/partner-5.png', url: null },
+    { 
+      name: 'Big Time Production', 
+      logo: '/images/sponsors/bigtime-production-logo.png',
+      url: 'https://bigtime-production.com/'
+    },
     { name: 'Partner 6', logo: '/images/sponsors/partner-6.png', url: null },
   ];
 
@@ -86,7 +90,7 @@ export const PartnersSponsors: React.FC = () => {
                   'lg:-translate-y-2',    // Bottom row right
                 ];
                 
-                const isRealPartner = partner.name === 'Luminis' || partner.name === 'Behave' || partner.name === 'PlaCello' || partner.name === 'Annie Klaus';
+                const isRealPartner = partner.name === 'Luminis' || partner.name === 'Behave' || partner.name === 'PlaCello' || partner.name === 'Annie Klaus' || partner.name === 'Big Time Production';
                 
                 const content = (
                   <div className="relative w-full aspect-square group">
