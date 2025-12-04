@@ -36,7 +36,11 @@ export const PartnersSponsors: React.FC = () => {
       logo: '/images/sponsors/bigtime-production-logo.png',
       url: 'https://bigtime-production.com/'
     },
-    { name: 'Partner 6', logo: '/images/sponsors/partner-6.png', url: null },
+    { 
+      name: 'We Are Studio', 
+      logo: '/images/sponsors/we-are-studio-logo.png',
+      url: 'https://www.instagram.com/wearestudio.ro/'
+    },
   ];
 
   return (
@@ -90,7 +94,7 @@ export const PartnersSponsors: React.FC = () => {
                   'lg:-translate-y-2',    // Bottom row right
                 ];
                 
-                const isRealPartner = partner.name === 'Luminis' || partner.name === 'Behave' || partner.name === 'PlaCello' || partner.name === 'Annie Klaus' || partner.name === 'Big Time Production';
+                const isRealPartner = partner.name === 'Luminis' || partner.name === 'Behave' || partner.name === 'PlaCello' || partner.name === 'Annie Klaus' || partner.name === 'Big Time Production' || partner.name === 'We Are Studio';
                 
                 const content = (
                   <div className="relative w-full aspect-square group">
