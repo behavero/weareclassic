@@ -36,11 +36,11 @@ export const PartnersSponsors: React.FC = () => {
       logo: '/images/sponsors/bigtime-production-logo.png',
       url: 'https://bigtime-production.com/'
     },
-    { 
-      name: 'We Are Studio', 
-      logo: '/images/sponsors/we-are-studio-logo.png',
-      url: 'https://www.instagram.com/wearestudio.ro/'
-    },
+  {
+    name: 'We Are Studio',
+    logo: '/images/sponsors/wearestudio-logo.png',
+    url: 'https://www.instagram.com/wearestudio.ro/'
+  },
   ];
 
   return (
